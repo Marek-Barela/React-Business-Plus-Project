@@ -1,0 +1,378 @@
+//-----------------------------------GLOBAL STYLES-------------------------------//
+@import './normalize.scss'
+*
+    box-sizing: border-box
+body
+    //font-family: 'Lora', serif
+    font-family: 'Raleway', sans-serif
+a
+    text-decoration: none
+    color: inherit
+.container
+    max-width: 1200px
+    margin: 0 auto
+.row:afer, .row:before
+    content: ""
+    display: table
+    clear: both
+[class*='col-']
+    float: left
+    min-height: 1px
+.col-1
+    width: 8.33%
+.col-2
+    width: 16.66%
+.col-4
+    width: 33.33%
+.col-5
+    width: 41.66%
+.col-6
+    width: 50%
+.col-7
+    width: 58.33%
+.col-12
+    width: 100%
+.btn
+    width: 151px
+    height: 51px
+    border: 1px solid #ffaf36
+    background-color: transparent
+    color: #ffaf36
+    text-transform: uppercase
+    font-size: 12px
+    cursor: pointer
+    font-weight: bold
+.section__header
+    font-size: 1.9em
+    text-transform: uppercase
+    margin-bottom: 10px
+    letter-spacing: 2px
+.section__subheading
+    font-family: 'Lora', serif
+    font-style: italic
+    font-size: 0.9em
+    letter-spacing: 1px
+.section__paragraph
+    font-size: 0.9em
+    line-height: 28px
+    color: #585858
+.section__button
+    color: #ffaf36
+    transition: all .3s
+    &:hover
+        background-color: #ffaf36
+        color: white
+//HEADER STYLES
+header
+    border-bottom: 1px solid rgba(221,228,234, 0.15)
+    min-height: 100px
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    z-index: 2
+.header__container
+    position: relative
+.header__logo
+    position: absolute
+    top: 27px
+    color: white
+    display: flex
+    align-items: center
+    .logo
+        padding-bottom: 10px
+    span
+        padding-left: 20px
+        letter-spacing: 2px
+        font-size: 15px
+    p
+        font-family: auto
+        padding-left: 20px
+        z-index: 1
+.logo__item
+    border-left: 2px solid rgba(221,228,234, 0.15)
+    margin-left: 20px
+    padding: 12px 0
+.header__navigation
+    float: right
+    margin-top: 40px
+    padding: 0 20px 0 0
+    list-style-type: none
+    li
+        display: inline-block
+        padding-right: 40px
+        color: white
+        text-transform: uppercase
+        font-size: 14px
+    .fa-caret-right
+        display: none
+nav
+    a
+        &:hover
+            color: #ffaf36
+    
+//FOOTER STYLES
+footer
+    min-height: 450px
+    background-color: #2a2b2c
+    padding: 80px 0
+    color: white
+.footer__logo
+    margin-top: 50px
+.footer__header
+    text-transform: uppercase
+    margin-bottom: 35px
+.logo__paragraph
+    font-size: 0.8em
+    color: #8e8e8e
+    text-transform: uppercase
+    letter-spacing: 1px
+    font-weight: 800
+    margin-bottom: 30px
+.media__item
+    display: inline-block
+    margin-right: 10px
+    border: 1px solid #373839
+    position: relative
+    cursor: pointer
+    a
+        width: 29px
+        height: 29px
+        display: block
+        color: #8a8a8a
+        &:hover
+            color: #ffaf36
+    [class*='fa-']
+        position: absolute
+        font-size: 0.9em
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+.navigation__column
+    padding-left: 50px
+.footer__navigation
+    list-style-type: none
+    padding: 0
+    li
+        border-bottom: 1px solid #373839
+        padding-bottom: 6px
+        margin: 0 110px 10px 0
+        color: #7b7b7c
+        font-size: 12px
+        text-transform: uppercase
+.fa-caret-right
+    display: inline-block
+    padding-right: 10px
+    color: #ffaf36
+.contact__column
+    position: relative
+    padding-left: 60px
+    height: 300px
+.footer__form
+    margin-top: 20px
+    input, textarea
+        background-color: #2a2b2c
+        border: 1px solid #373839
+        padding: 14px
+        font-size: 12px
+    input
+        width: 180px
+    textarea
+        resize: none
+        width: 360px
+        height: 100px
+    .footer__button
+        position: absolute
+        bottom: 20px
+        left: 60px
+        border: 1px solid #ffaf36
+        width: 151px
+        padding: 0
+
+[class*='hero__section']
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    position: relative
+    z-index: 1
+//---------------------------------HOMEPAGE----------------------------------//
+//HOME PAGE / HERO SECTION
+.hero__section--home
+    background-image: url(../components/Images/home-background.png)
+    min-height: 800px
+    color: white
+.hero__container
+    min-height: 800px
+    position: relative
+    z-index: 1
+.hero__content
+    position: absolute
+    top: 40%
+    left: 0
+    span
+        text-transform: uppercase
+.hero__header
+    font-size: 3em
+    text-transform: uppercase
+    margin: 20px 0
+    letter-spacing: 2px
+.hero__paragraph
+    font-size: 1em
+    font-style: italic
+    width: 60%
+    line-height: 35px
+    font-family: 'Lora', serif
+.hero__button
+    background-color: #ffaf36
+    margin-top: 40px
+    color: black
+    transition: color .3s
+    &:hover
+        color: white
+//HOME PAGE / ABOUT SECTION
+.about__section--home
+    min-height: 360px
+    padding: 100px 0 120px 0
+.about__paragraph
+    width: 85%
+.about__button
+    margin-top: 15px
+//HOME PAGE / SERVICE SECTION
+.services__section--home
+    min-height: 600px
+    background-color: #eaeff3
+    text-align: left
+.services__container
+    min-height: 600px
+    padding: 90px 0
+    position: relative
+.services__column-12
+    margin-bottom: 30px
+.section__item
+    display: flex
+.item__icon
+    position: relative
+    width: 18%
+    display: inline-block
+    img
+        position: absolute
+        top: 60px
+        left: 10px
+        width: 60px
+        height: 55px
+.item__content
+    width: 82%
+    display: inline-block
+    padding-top: 30px
+.item__header
+    font-size: 0.8em
+    text-transform: uppercase
+    letter-spacing: 2px
+    font-weight: bold
+    margin-bottom: 15px
+.item__paragraph
+    width: 85%
+.service__button
+    margin-top: 50px
+.service__pyramids
+    position: absolute
+    bottom: 0
+    right: 40px
+//HOME PAGE / CLIENT SECTION
+.client__section--home
+    min-height: 550px
+    padding: 50px 0 0 0
+.client__column-12
+    padding-left: 35px
+.client__content
+    position: relative
+    padding: 45px 35px 0 35px
+.client__data
+    padding-top: 15px
+    display: flex
+.client__details
+    margin-top: 12px
+    padding-left: 30px
+.client__header
+    font-size: 0.8em
+    text-transform: uppercase
+    letter-spacing: 2px
+    margin: 0
+.client__paragraph
+    margin: 0
+.quote__img
+    top: 30px
+    position: absolute
+//HOME PAGE / NEWS SECTION
+.news__section--home
+    background-color: #eaeff3
+    min-height: 730px
+    padding: 60px 0
+.news__column-12
+    margin-bottom: 50px
+.news__statistics
+    position: relative
+    display: inline-block
+    text-align: right
+.statistics__object
+    width: 75px
+    border-bottom: 1px solid #ffaf36
+    margin-bottom: 20px
+    span
+        font-size: 30px
+        font-weight: bold
+.statistic__paragraph
+    font-size: 0.8em
+    margin: 10px 0
+    letter-spacing: 1.5px
+.news__article
+    display: inline-block
+    width: 80%
+    padding: 0 20px
+.article__header
+    font-size: 0.9em
+    text-transform: uppercase
+    letter-spacing: 1.5px
+    margin-bottom: 10px
+.article__paragraph
+    font-size: 0.8em
+    line-height: 28px
+    width: 90%
+    color: #585858
+    margin: 0
+.news__article--right
+    margin-left: 50px
+    padding-bottom: 20px
+.article__date
+    text-transform: uppercase
+    font-size: .8em
+    color: #ffaf36
+    font-weight: bold
+.news__separator
+    border-bottom: 1px solid #d8dcdf
+.news__button
+    margin: 30px 0 0 50px
+//HOME PAGE / PARTNERS SECTION
+.partners__section--home
+    min-height: 480px
+.partners__container
+    min-height: 480px
+    position: relative
+    padding: 40px 0 70px 0
+.logo__container
+    margin-top: 50px
+    padding: 20px 55px
+    border: 1px solid #eaeff3
+    img
+        width: 88px
+        height: 88px
+.pyramids__shape
+    position: absolute
+    bottom: 0
+    right: 40px
+//---------------------------------AboutUsPage----------------------------------//
+.hero__section-about
+    background-image: url(../components/Images/about-background.png)
+    min-height: 370px
+    color: white
