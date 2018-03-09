@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from '../Images/Business-Plus.png';
 import Navigation from '../Navigation/Navigation';
-import { Link } from 'react-router-dom';
 
 const Footer = (props) => {
     return (
@@ -35,8 +34,8 @@ const Footer = (props) => {
                     <div className='col-6 contact__column'>
                         <h3 className='footer__header'>Quick contact us</h3>
                         <form className='footer__form' action='#'>
-                            <input type='text' placeholder='Name *' />
-                            <input type='email' placeholder='Email *' />
+                            <input type='text' autoComplete="text" placeholder='Name *' />
+                            <input type='email' autoComplete="email" placeholder='Email *' />
                             <textarea name='text' placeholder='Comment *' cols='40' rows='3'></textarea>
                             <input className='btn section__button footer__button' type='submit' value='Submit Now'/>
                         </form>

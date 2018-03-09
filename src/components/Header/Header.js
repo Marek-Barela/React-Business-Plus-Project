@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import { Link } from 'react-router-dom';
 import logo from './../Images/Business-Plus.png'

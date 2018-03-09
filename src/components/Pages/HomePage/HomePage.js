@@ -8,7 +8,11 @@ import NewsSection from './HomeComponents/NewsSection';
 import PartnersSection from './HomeComponents/PartnersSection';
 import Footer from '../../Footer/Footer';
 
-const HomePage = (props) => {
+class HomePage extends Component {
+  componentDidMount () {
+    window.scrollTo(0, 0)
+  }
+  render(){
     return (
       <div>
         <Header />
@@ -24,5 +28,6 @@ const HomePage = (props) => {
       </div>
     );
   }
+}
 
 export default HomePage;

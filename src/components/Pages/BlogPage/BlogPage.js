@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
 
-const BlogPage = (props) => {
+class BlogPage extends Component {
+    componentDidMount () {
+      window.scrollTo(0, 0)
+    }
+    render() {
     return (
         <div>
             <Header />
@@ -14,5 +18,6 @@ const BlogPage = (props) => {
         </div>
     );
   }
+}
 
 export default BlogPage;

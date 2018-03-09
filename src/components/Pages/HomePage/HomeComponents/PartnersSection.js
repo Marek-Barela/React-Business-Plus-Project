@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo1 from '../../../Images/partners-icon-one.png';
 import logo2 from '../../../Images/partners-icon-two.png';
 import logo3 from '../../../Images/partners-icon-three.png';
@@ -6,12 +6,11 @@ import logo4 from '../../../Images/partners-icon-four.png';
 import logo5 from '../../../Images/partners-icon-five.png';
 import logo6 from '../../../Images/partners-icon-six.png';
 import pyramids from '../../../Images/pyramid-shape.png';
-import { Link } from 'react-router-dom';
 
 const PartnersSection = (props) => {
     return (
       <section className='partners__section--home'>
-        <div className='partners__container container'>
+        <div className='partners__container--home container'>
             <div className='row'>
                 <div className='col-12'>
                     <h5 className='section__header'>Partners</h5>
@@ -38,7 +37,7 @@ const PartnersSection = (props) => {
                     </div>
                 </div>
             </div>
-            <img className='pyramids__shape' src={pyramids} alt="pyramids"/>
+            <img className='pyramids__shape--home' src={pyramids} alt="pyramids"/>
         </div>
       </section>
     );

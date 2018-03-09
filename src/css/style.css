@@ -397,6 +397,9 @@ a {
 .col-7 {
   width: 58.33%; }
 
+.col-9 {
+  width: 75%; }
+
 .col-12 {
   width: 100%; }
 
@@ -584,47 +587,47 @@ footer {
   min-height: 800px;
   color: white; }
 
-.hero__container {
+.hero__container--home {
   min-height: 800px;
   position: relative;
   z-index: 1; }
 
-.hero__content {
+.hero__content--home {
   position: absolute;
   top: 40%;
   left: 0; }
-  .hero__content span {
+  .hero__content--home span {
     text-transform: uppercase; }
 
-.hero__header {
+.hero__header--home {
   font-size: 3em;
   text-transform: uppercase;
   margin: 20px 0;
   letter-spacing: 2px; }
 
-.hero__paragraph {
+.hero__paragraph--home {
   font-size: 1em;
   font-style: italic;
   width: 60%;
   line-height: 35px;
   font-family: 'Lora', serif; }
 
-.hero__button {
+.hero__button--home {
   background-color: #ffaf36;
   margin-top: 40px;
   color: black;
   transition: color .3s; }
-  .hero__button:hover {
+  .hero__button--home:hover {
     color: white; }
 
 .about__section--home {
   min-height: 360px;
   padding: 100px 0 120px 0; }
 
-.about__paragraph {
+.about__paragraph--home {
   width: 85%; }
 
-.about__button {
+.about__button--home {
   margin-top: 15px; }
 
 .services__section--home {
@@ -632,47 +635,47 @@ footer {
   background-color: #eaeff3;
   text-align: left; }
 
-.services__container {
+.services__container--home {
   min-height: 600px;
   padding: 90px 0;
   position: relative; }
 
-.services__column-12 {
+.services__column-12--home {
   margin-bottom: 30px; }
 
-.section__item {
+.section__item--home {
   display: flex; }
 
-.item__icon {
+.item__icon--home {
   position: relative;
   width: 18%;
   display: inline-block; }
-  .item__icon img {
+  .item__icon--home img {
     position: absolute;
     top: 60px;
     left: 10px;
     width: 60px;
     height: 55px; }
 
-.item__content {
+.item__content--home {
   width: 82%;
   display: inline-block;
   padding-top: 30px; }
 
-.item__header {
+.item__header--home {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 15px; }
 
-.item__paragraph {
+.item__paragraph--home {
   width: 85%; }
 
-.service__button {
+.service__button--home {
   margin-top: 50px; }
 
-.service__pyramids {
+.service__pyramids--home {
   position: absolute;
   bottom: 0;
   right: 40px; }
@@ -681,31 +684,31 @@ footer {
   min-height: 550px;
   padding: 50px 0 0 0; }
 
-.client__column-12 {
+.client__column-12--home {
   padding-left: 35px; }
 
-.client__content {
+.client__content--home {
   position: relative;
   padding: 45px 35px 0 35px; }
 
-.client__data {
+.client__data--home {
   padding-top: 15px;
   display: flex; }
 
-.client__details {
+.client__details--home {
   margin-top: 12px;
   padding-left: 30px; }
 
-.client__header {
+.client__header--home {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0; }
 
-.client__paragraph {
+.client__paragraph--home {
   margin: 0; }
 
-.quote__img {
+.quote__img--home {
   top: 30px;
   position: absolute; }
 
@@ -714,10 +717,10 @@ footer {
   min-height: 730px;
   padding: 60px 0; }
 
-.news__column-12 {
+.news__column-12--home {
   margin-bottom: 50px; }
 
-.news__statistics {
+.news__statistics--home {
   position: relative;
   display: inline-block;
   text-align: right; }
@@ -735,7 +738,7 @@ footer {
   margin: 10px 0;
   letter-spacing: 1.5px; }
 
-.news__article {
+.news__article--home {
   display: inline-block;
   width: 80%;
   padding: 0 20px; }
@@ -766,13 +769,13 @@ footer {
 .news__separator {
   border-bottom: 1px solid #d8dcdf; }
 
-.news__button {
+.news__button--home {
   margin: 30px 0 0 50px; }
 
 .partners__section--home {
   min-height: 480px; }
 
-.partners__container {
+.partners__container--home {
   min-height: 480px;
   position: relative;
   padding: 40px 0 70px 0; }
@@ -785,12 +788,113 @@ footer {
     width: 88px;
     height: 88px; }
 
-.pyramids__shape {
+.pyramids__shape--home {
   position: absolute;
   bottom: 0;
   right: 40px; }
 
-.hero__section-about {
+.hero__section--about {
   background-image: url(../components/Images/about-background.png);
-  min-height: 370px;
-  color: white; }
+  min-height: 370px; }
+
+.about__section--about {
+  min-height: 950px;
+  padding: 80px 0; }
+
+.about__paragraph--about {
+  margin-top: 25px; }
+
+.about__image-container--about {
+  position: relative;
+  margin-top: 90px; }
+  .about__image-container--about img {
+    width: 100%; }
+
+.button__container--about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .button__container--about button {
+    margin: 0 15px; }
+
+.views__section {
+  background-color: #eaeff3;
+  min-height: 700px; }
+
+.views__container {
+  position: relative;
+  min-height: 700px;
+  padding: 80px 0; }
+
+.views__top-column {
+  margin-top: 30px; }
+  .views__top-column .col-9 {
+    margin-left: 30px; }
+
+.views__bottom-column {
+  float: right;
+  text-align: right; }
+  .views__bottom-column .col-9 {
+    margin-right: 30px; }
+  .views__bottom-column p {
+    float: right; }
+
+.views-column__header {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.views-column__paragraph {
+  line-height: 28px;
+  font-size: 0.9em;
+  width: 85%;
+  color: #585858; }
+
+.views__pyramids {
+  position: absolute;
+  bottom: 0;
+  left: 40px; }
+
+.hero__section--services {
+  background-image: url(../components/Images/services-background.png);
+  min-height: 370px; }
+
+.services__article {
+  border: 1px solid #eaeff3; }
+
+.services__section--services {
+  min-height: 1600px;
+  padding: 80px 0; }
+
+.services__container--services {
+  padding-left: 15px; }
+
+.services__article {
+  margin: 15px 15px 20px 0; }
+  .services__article img {
+    width: 100%; }
+
+.services-article__header, .services-article__paragraph {
+  padding: 10px 70px; }
+
+.services-article__header {
+  margin: 30px 0 0 0; }
+
+.services-article__paragraph {
+  width: 100%; }
+
+.services-article__button {
+  margin: 30px 0 50px 70px; }
+
+.client-component-Background {
+  background-color: #eaeff3; }
+
+.hero__section--news {
+  background-image: url(../components/Images/news-background.png);
+  min-height: 370px; }
+
+.news__container--news {
+  padding: 80px 0; }
+
+.news-section__article--one {
+  min-height: 500px; }
