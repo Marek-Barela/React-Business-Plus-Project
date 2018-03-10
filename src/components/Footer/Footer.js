@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../Images/Business-Plus.png';
 import Navigation from '../Navigation/Navigation';
+import { Link } from 'react-router-dom';
 
 const Footer = (props) => {
     return (
@@ -9,7 +10,7 @@ const Footer = (props) => {
                 <div className='row'>
                     <div className='col-6'>
                         <div className='col-6 footer__logo'>
-                            <img src={logo} alt="Logo"/>
+                            <Link to="/"><img src={logo} alt="Logo"/></Link>
                             <p className='logo__paragraph'>2015 © lawyer.</p>
                             <div className='footer__media'>
                                 <div className='media__item'>

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
 
 class ContactPage extends Component {
   componentDidMount () {
@@ -8,13 +6,8 @@ class ContactPage extends Component {
   }
   render() {
     return (
-      <div>
-        <Header />
         <main>
-
         </main>
-        <Footer />
-      </div>
     );
   }
 }

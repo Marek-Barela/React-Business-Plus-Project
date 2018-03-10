@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Header from '../../Header/Header';
 import HeroSection from './HomeComponents/HeroSection';
 import AboutSection from './HomeComponents/AboutSection';
 import ServicesSection from './HomeComponents/ServicesSection';
 import ClientSection from './HomeComponents/ClientSection';
 import NewsSection from './HomeComponents/NewsSection';
 import PartnersSection from './HomeComponents/PartnersSection';
-import Footer from '../../Footer/Footer';
 
 class HomePage extends Component {
   componentDidMount () {
@@ -14,8 +12,6 @@ class HomePage extends Component {
   }
   render(){
     return (
-      <div>
-        <Header />
         <main>
             <HeroSection />
             <AboutSection />
@@ -24,8 +20,6 @@ class HomePage extends Component {
             <NewsSection />
             <PartnersSection />
         </main>
-        <Footer />
-      </div>
     );
   }
 }

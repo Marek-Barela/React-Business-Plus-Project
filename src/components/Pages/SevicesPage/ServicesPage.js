@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import Header from '../../Header/Header';
 import HeroSection from './ServicesComponents/HeroSection';
 import ServicesSection from './ServicesComponents/ServicesSection';
 import ClientSection from '../HomePage/HomeComponents/ClientSection';
-import Footer from '../../Footer/Footer';
 
 class ServicesPage extends Component {
   componentDidMount () {
@@ -11,8 +9,6 @@ class ServicesPage extends Component {
   }
   render() {
     return (
-      <div>
-        <Header />
         <main>
           <HeroSection />
           <ServicesSection />
@@ -20,8 +16,6 @@ class ServicesPage extends Component {
             <ClientSection />
           </div>
         </main>
-        <Footer />
-      </div>
     );
   }
 }

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../../Header/Header';
 import NewsSection from './NewsComponents/NewsSection';
-import Footer from '../../Footer/Footer';
 
 class NewsPage extends Component {
     componentDidMount () {
@@ -9,14 +7,10 @@ class NewsPage extends Component {
     }
     render() {
     return (
-        <div>
-            <Header />
-            <main>
-                <section className="hero__section--news"></section>
-                <NewsSection />
-            </main>
-            <Footer />
-        </div>
+    <main>
+        <section className="hero__section--news"></section>
+        <NewsSection />
+    </main>
     );
   }
 }

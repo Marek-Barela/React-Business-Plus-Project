@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
 
 class FAQPage extends Component {
     componentDidMount () {
@@ -8,14 +6,9 @@ class FAQPage extends Component {
     }
     render() {
     return (
-        <div>
-            <Header />
-            <main>
-                <section className="hero__section-FAQ">
-                </section>
-            </main>
-            <Footer />
-        </div>
+    <main>
+        <section className="hero__section-FAQ"></section>
+    </main>
     );
   }
 }

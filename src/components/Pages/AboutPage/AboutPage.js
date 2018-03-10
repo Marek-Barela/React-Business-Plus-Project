@@ -11,15 +11,11 @@ class AboutPage extends Component {
     }
     render() {
         return (
-            <div>
-                <Header />
-                <main>
-                    <HeroSection />
-                    <AboutSection />
-                    <ViewsSection />
-                </main>
-                <Footer />
-            </div>
+        <main>
+            <HeroSection />
+            <AboutSection />
+            <ViewsSection />
+        </main>
         );
     }
 }

@@ -5,6 +5,7 @@ import imageTwo from "../../../Images/news-image-two.png";
 import imageThree from "../../../Images/news-image-three.png";
 import imageSubOne from "../../../Images/news-subimage-one.png";
 import imageSubTwo from "../../../Images/news-subimage-two.png";
+import pyramids from "../../../Images/pyramid-shape.png";
 
 const NewsSection = (props) => {
     return (
@@ -82,7 +83,8 @@ const NewsSection = (props) => {
                 </div>
             </article>
             <article className="news-section__article--four">
-                <div className="article__container container">
+                <div className="article__container news-section__container--four container">
+                    <img className="pyramids__shape" src={pyramids} alt="pyramids"/>
                     <div className="col-2">
                         <div className="article__shape-container">
                             <img src={Shape} alt="shape"/>

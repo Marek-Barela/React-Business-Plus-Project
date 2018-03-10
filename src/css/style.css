@@ -973,4 +973,80 @@ footer {
 .news-section__article--four {
   min-height: 440px;
   background-color: #eaeff3;
-  padding: 50px 0 80px 0; }
+  padding: 50px 0 0 0; }
+
+.news-section__container--four {
+  position: relative;
+  min-height: 440px; }
+  .news-section__container--four .pyramids__shape {
+    position: absolute;
+    bottom: 0;
+    right: 40px; }
+
+.hero__section--blog {
+  background-image: url(../components/Images/blog-background.png);
+  min-height: 370px; }
+
+.blog__container--blog {
+  position: relative;
+  padding: 80px 0 150px; }
+
+.blog__pyramids {
+  position: absolute;
+  bottom: 0;
+  right: 40px; }
+
+.blog__article {
+  min-height: 670px;
+  margin-top: 40px;
+  border-bottom: 1px solid #e6e9ee; }
+
+.blog-article__header {
+  margin: 8px 0; }
+
+.blog-article__subheading {
+  text-transform: uppercase;
+  color: #757575;
+  padding-bottom: 25px; }
+
+.blog-article__paragraph {
+  padding: 25px 0 40px 0;
+  width: 100%; }
+
+.blog-article__image {
+  width: 100%; }
+
+.media__container {
+  display: flex;
+  float: left; }
+  .media__container p {
+    font-size: 0.9em;
+    letter-spacing: 1px; }
+
+.blog-media__item {
+  position: relative;
+  margin-left: 15px;
+  border-radius: 100%;
+  background-color: #496fa5;
+  color: white; }
+  .blog-media__item:hover {
+    color: #ddd; }
+  .blog-media__item [class*="fa"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em; }
+  .blog-media__item a {
+    width: 51px;
+    height: 51px;
+    display: block; }
+
+.twitter-icon {
+  background-color: #00baef; }
+
+.google-icon {
+  background-color: #eb4125; }
+
+.blog__button {
+  float: right; }
