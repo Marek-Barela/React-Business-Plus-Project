@@ -6,6 +6,9 @@ import AboutPage from './components/Pages/AboutPage/AboutPage';
 import ServicesPage from './components/Pages/SevicesPage/ServicesPage';
 import NewsPage from './components/Pages/NewsPage/NewsPage';
 import BlogPage from './components/Pages/BlogPage/BlogPage';
+import BlogArticleOne from './components/Pages/BlogPage/BlogArticles/BlogArticleOne';
+import BlogArticleTwo from './components/Pages/BlogPage/BlogArticles/BlogArticleTwo';
+import BlogArticleThree from './components/Pages/BlogPage/BlogArticles/BlogArticleThree';
 import FAQPage from './components/Pages/FAQPage/FAQPage';
 import ContactPage from './components/Pages/ContactPage/ContactPage';
 import Footer from './components/Footer/Footer';
@@ -17,12 +20,15 @@ class App extends Component {
       <div className="App">
           <Header />
           <Route path="/" exact component={HomePage} />
-          <Route path="/About" exact component={AboutPage} />
-          <Route path="/Services" exact component={ServicesPage} />
-          <Route path="/News" exact component={NewsPage} />
+          <Route path="/About" component={AboutPage} />
+          <Route path="/Services" component={ServicesPage} />
+          <Route path="/News" component={NewsPage} />
           <Route path="/Blog" exact component={BlogPage} />
-          <Route path="/FAQ" exact component={FAQPage} />
-          <Route path="/Contact" exact component={ContactPage} />
+          <Route path="/FAQ" component={FAQPage} />
+          <Route path="/Contact" component={ContactPage} />
+            <Route path="/Blog/Article-1" component={BlogArticleOne} />
+            <Route path="/Blog/Article-2" component={BlogArticleTwo} />
+            <Route path="/Blog/Article-3" component={BlogArticleThree} />
           <Footer />
       </div>
     );

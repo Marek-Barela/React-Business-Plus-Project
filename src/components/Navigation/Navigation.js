@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = (props) => {
     return(
         <nav>
             <ul className={props.className}>
-                <li><span className="fas fa-caret-right"></span><Link to='/'>Home</Link></li>
-                <li><span className="fas fa-caret-right"></span><Link to='/About'>About us</Link></li>
-                <li><span className="fas fa-caret-right"></span><Link to='/Services'>Services</Link></li>
-                <li><span className="fas fa-caret-right"></span><Link to='/News'>News</Link></li>
-                <li><span className="fas fa-caret-right"></span><Link to='/Blog'>Blog</Link></li>
-                <li><span className="fas fa-caret-right"></span><Link to='/FAQ'>FAQ</Link></li>
-                <li><span className="fas fa-caret-right"></span><Link to='/Contact'>Contact us</Link></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" exact to='/'>Home</NavLink></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" to='/About'>About us</NavLink></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" to='/Services'>Services</NavLink></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" to='/News'>News</NavLink></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" exact to='/Blog'>Blog</NavLink></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" to='/FAQ'>FAQ</NavLink></li>
+                <li><span className="fas fa-caret-right"></span><NavLink activeClassName="navigation__link--active" to='/Contact'>Contact us</NavLink></li>
             </ul>
         </nav>
     );

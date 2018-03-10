@@ -6,7 +6,7 @@ import phone from './../Images/phone-icon.png'
 
 const Header = (props) => {
     return(
-      <header>
+      <header className="header">
         <div className='header__container container'>
             <div className='header__logo'>
                 <Link to='/'><img className='logo' src={logo} alt='business plus' /></Link>

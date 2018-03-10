@@ -14,16 +14,16 @@ const Footer = (props) => {
                             <p className='logo__paragraph'>2015 © lawyer.</p>
                             <div className='footer__media'>
                                 <div className='media__item'>
-                                    <a href="https://www.facebook.com/" target='_black'><span className="fab fa-facebook-f"></span></a>
+                                    <a href="https://www.facebook.com/" rel='noopener noreferrer' target='_black'><span className="fab fa-facebook-f"></span></a>
                                 </div>
                                 <div className='media__item'>
-                                    <a href="https://plus.google.com/" target='_black'> <span className="fab fa-google-plus-g"></span></a>
+                                    <a href="https://plus.google.com/" rel='noopener noreferrer' target='_black'> <span className="fab fa-google-plus-g"></span></a>
                                 </div>
                                 <div className='media__item'>
-                                    <a href="https://twitter.com/" target='_black'><span className="fab fa-twitter"></span></a>
+                                    <a href="https://twitter.com/" rel='noopener noreferrer' target='_black'><span className="fab fa-twitter"></span></a>
                                 </div>
                                 <div className='media__item'>
-                                    <a href="https://www.linkedin.com/" target='_black'><span className="fab fa-linkedin-in"></span></a>
+                                    <a href="https://www.linkedin.com/" rel='noopener noreferrer' target='_black'><span className="fab fa-linkedin-in"></span></a>
                                 </div>
                             </div>
                         </div>

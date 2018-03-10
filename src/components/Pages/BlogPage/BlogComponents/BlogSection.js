@@ -4,6 +4,7 @@ import imageOne from "../../../Images/blog-image-one.png";
 import imageTwo from "../../../Images/blog-image-two.png";
 import imageThree from "../../../Images/blog-image-three.png";
 import pyramids from "../../../Images/pyramid-shape.png";
+import { Link } from "react-router-dom";
 
 const BlogSection = (props) => {
     return (
@@ -25,16 +26,16 @@ const BlogSection = (props) => {
                         <div className="media__container">
                             <p>SHARE:</p>
                             <div className="blog-media__item facebook-icon">
-                                <a href="https://www.facebook.com/" target="_blank"><span className="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-facebook-f"></span></a>
                             </div>
                             <div className="blog-media__item twitter-icon">
-                                <a href="https://twitter.com/" target="_blank"><span className="fab fa-twitter"></span></a>
+                                <a href="https://twitter.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-twitter"></span></a>
                             </div>
                             <div className="blog-media__item google-icon">
-                                <a href="https://plus.google.com/" target="_blank"><span className="fab fa-google-plus-g"></span></a>
+                                <a href="https://plus.google.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-google-plus-g"></span></a>
                             </div>
                         </div>
-                        <button className="btn section__button blog__button">Read More</button>
+                        <Link to="/Blog/Article-1"><button className="btn section__button blog__button">Read More</button></Link>
                     </div>
                 </article>
                 <article className="blog__article">
@@ -50,16 +51,16 @@ const BlogSection = (props) => {
                         <div className="media__container">
                             <p>SHARE:</p>
                             <div className="blog-media__item facebook-icon">
-                                <a href="https://www.facebook.com/" target="_blank"><span className="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-facebook-f"></span></a>
                             </div>
                             <div className="blog-media__item twitter-icon">
-                                <a href="https://twitter.com/" target="_blank"><span className="fab fa-twitter"></span></a>
+                                <a href="https://twitter.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-twitter"></span></a>
                             </div>
                             <div className="blog-media__item google-icon">
-                                <a href="https://plus.google.com/" target="_blank"><span className="fab fa-google-plus-g"></span></a>
+                                <a href="https://plus.google.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-google-plus-g"></span></a>
                             </div>
                         </div>
-                        <button className="btn section__button blog__button">Read More</button>
+                        <Link to="/Blog/Article-2"><button className="btn section__button blog__button">Read More</button></Link>
                     </div>
                 </article>
                 <article className="blog__article">
@@ -75,16 +76,16 @@ const BlogSection = (props) => {
                         <div className="media__container">
                             <p>SHARE:</p>
                             <div className="blog-media__item facebook-icon">
-                                <a href="https://www.facebook.com/" target="_blank"><span className="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-facebook-f"></span></a>
                             </div>
                             <div className="blog-media__item twitter-icon">
-                                <a href="https://twitter.com/" target="_blank"><span className="fab fa-twitter"></span></a>
+                                <a href="https://twitter.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-twitter"></span></a>
                             </div>
                             <div className="blog-media__item google-icon">
-                                <a href="https://plus.google.com/" target="_blank"><span className="fab fa-google-plus-g"></span></a>
+                                <a href="https://plus.google.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-google-plus-g"></span></a>
                             </div>
                         </div>
-                        <button className="btn section__button blog__button">Read More</button>
+                        <Link to="/Blog/Article-3"><button className="btn section__button blog__button">Read More</button></Link>
                     </div>
                 </article>
             </div>
