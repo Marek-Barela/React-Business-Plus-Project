@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import FAQSection from "./FAQComponents/FAQSection";
 
 class FAQPage extends Component {
     componentDidMount () {
@@ -8,6 +9,7 @@ class FAQPage extends Component {
     return (
     <main>
         <section className="hero__section-FAQ"></section>
+        <FAQSection />
     </main>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ContactSection from './ContactComponents/ContactSection';
 
 class ContactPage extends Component {
   componentDidMount () {
@@ -7,6 +8,8 @@ class ContactPage extends Component {
   render() {
     return (
         <main>
+          <section className="hero__section--contact"></section>
+          <ContactSection />
         </main>
     );
   }

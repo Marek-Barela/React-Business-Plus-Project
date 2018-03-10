@@ -406,6 +406,9 @@ a {
 .col-10 {
   width: 83.33%; }
 
+.col-11 {
+  width: 91.66%; }
+
 .col-12 {
   width: 100%; }
 
@@ -1124,3 +1127,82 @@ footer {
   color: #ffaf36;
   font-weight: bold;
   font-size: 1em; }
+
+.hero__section-FAQ {
+  background-image: url(../components/Images/FAQ-background.png);
+  min-height: 370px; }
+
+.FAQ__section {
+  min-height: 1040px;
+  padding: 80px 0; }
+
+.faq__item {
+  height: 140px;
+  margin-top: 45px;
+  padding-bottom: 30px; }
+
+.item__yellow-shape {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  transform: rotate(45deg);
+  background-color: #ffaf36; }
+  .item__yellow-shape span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-weight: bold; }
+
+.faq__header {
+  margin-top: 0; }
+
+.hero__section--contact {
+  background-image: url(../components/Images/contact-background.png);
+  min-height: 370px; }
+
+.contact-page__section {
+  min-height: 800px;
+  padding: 80px 0; }
+
+.contact__details {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-between; }
+  .contact__details p {
+    padding: 0 20px;
+    font-family: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.8em; }
+
+.details__phone-box {
+  display: flex;
+  align-items: center; }
+
+.detail__email-box {
+  border: 1px solid #ffaf36; }
+
+.contact__image-container {
+  margin-top: 40px;
+  position: relative; }
+  .contact__image-container img {
+    width: 100%; }
+
+.image-container__content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%); }
+
+.contact-content__header {
+  margin: 0;
+  color: #ffaf36; }
+
+.contact-content__paragraph {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: white; }
