@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import BlogSection from './BlogComponents/BlogSection';
+import React, { Component } from "react";
+import BlogSection from "./BlogComponents/BlogSection";
 
 class BlogPage extends Component {
     componentDidMount () {

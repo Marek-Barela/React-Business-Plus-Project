@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import HeroSection from './HomeComponents/HeroSection';
-import AboutSection from './HomeComponents/AboutSection';
-import ServicesSection from './HomeComponents/ServicesSection';
-import ClientSection from './HomeComponents/ClientSection';
-import NewsSection from './HomeComponents/NewsSection';
-import PartnersSection from './HomeComponents/PartnersSection';
+import React, { Component } from "react";
+import HeroSection from "./HomeComponents/HeroSection";
+import AboutSection from "./HomeComponents/AboutSection";
+import ServicesSection from "./HomeComponents/ServicesSection";
+import ClientSection from "./HomeComponents/ClientSection";
+import NewsSection from "./HomeComponents/NewsSection";
+import PartnersSection from "./HomeComponents/PartnersSection";
 
 class HomePage extends Component {
   componentDidMount () {

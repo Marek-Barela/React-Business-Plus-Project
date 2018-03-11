@@ -21,18 +21,18 @@ const BlogSection = (props) => {
                         <h5 className="article__header blog-article__header">Blog Heading Here</h5>
                         <p className="article__paragraph blog-article__subheading">Posted by: admin,  October- 11- 2015</p>
                         <img className="blog-article__image" src={imageOne} alt="blog article"/>
-                        <p className="article__paragraph blog-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+                        <p className="article__paragraph blog-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
                         the leap into electronic typesetting, remaining essentially unchanged. It was popularised..</p>
                         <div className="media__container">
                             <p>SHARE:</p>
                             <div className="blog-media__item facebook-icon">
-                                <a href="https://www.facebook.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-facebook-f"></span></a>
                             </div>
                             <div className="blog-media__item twitter-icon">
-                                <a href="https://twitter.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-twitter"></span></a>
+                                <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-twitter"></span></a>
                             </div>
                             <div className="blog-media__item google-icon">
-                                <a href="https://plus.google.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-google-plus-g"></span></a>
+                                <a href="https://plus.google.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-google-plus-g"></span></a>
                             </div>
                         </div>
                         <Link to="/Blog/Article-1"><button className="btn section__button blog__button">Read More</button></Link>
@@ -46,18 +46,18 @@ const BlogSection = (props) => {
                         <h5 className="article__header blog-article__header">Blog Heading Here</h5>
                         <p className="article__paragraph blog-article__subheading">Posted by: admin,  October- 11- 2015</p>
                         <img className="blog-article__image" src={imageTwo} alt="blog article"/>
-                        <p className="article__paragraph blog-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+                        <p className="article__paragraph blog-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
                         the leap into electronic typesetting, remaining essentially unchanged. It was popularised..</p>
                         <div className="media__container">
                             <p>SHARE:</p>
                             <div className="blog-media__item facebook-icon">
-                                <a href="https://www.facebook.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-facebook-f"></span></a>
                             </div>
                             <div className="blog-media__item twitter-icon">
-                                <a href="https://twitter.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-twitter"></span></a>
+                                <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-twitter"></span></a>
                             </div>
                             <div className="blog-media__item google-icon">
-                                <a href="https://plus.google.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-google-plus-g"></span></a>
+                                <a href="https://plus.google.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-google-plus-g"></span></a>
                             </div>
                         </div>
                         <Link to="/Blog/Article-2"><button className="btn section__button blog__button">Read More</button></Link>
@@ -71,18 +71,18 @@ const BlogSection = (props) => {
                         <h5 className="article__header blog-article__header">Blog Heading Here</h5>
                         <p className="article__paragraph blog-article__subheading">Posted by: admin,  October- 11- 2015</p>
                         <img className="blog-article__image" src={imageThree} alt="blog article"/>
-                        <p className="article__paragraph blog-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
+                        <p className="article__paragraph blog-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
                         the leap into electronic typesetting, remaining essentially unchanged. It was popularised..</p>
                         <div className="media__container">
                             <p>SHARE:</p>
                             <div className="blog-media__item facebook-icon">
-                                <a href="https://www.facebook.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-facebook-f"></span></a>
                             </div>
                             <div className="blog-media__item twitter-icon">
-                                <a href="https://twitter.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-twitter"></span></a>
+                                <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-twitter"></span></a>
                             </div>
                             <div className="blog-media__item google-icon">
-                                <a href="https://plus.google.com/" rel='noopener noreferrer' target="_blank"><span className="fab fa-google-plus-g"></span></a>
+                                <a href="https://plus.google.com/" rel="noopener noreferrer" target="_blank"><span className="fab fa-google-plus-g"></span></a>
                             </div>
                         </div>
                         <Link to="/Blog/Article-3"><button className="btn section__button blog__button">Read More</button></Link>

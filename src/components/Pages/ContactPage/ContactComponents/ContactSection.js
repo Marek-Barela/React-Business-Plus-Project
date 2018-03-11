@@ -1,6 +1,6 @@
-import React from 'react';
-import phone from '../../../Images/phone-icon.png';
-import layer from '../../../Images/contact-page-layer.png';
+import React from "react";
+import phone from "../../../Images/phone-icon.png";
+import layer from "../../../Images/contact-page-layer.png";
 
 const ContactSection = (props) => {
     return (

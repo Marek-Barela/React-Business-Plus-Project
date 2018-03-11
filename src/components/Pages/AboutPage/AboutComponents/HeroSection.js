@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const HeroSection = (props) => {
     return (
-      <section className='hero__section--about'></section>
+      <section className="hero__section--about"></section>
     );
   }
 

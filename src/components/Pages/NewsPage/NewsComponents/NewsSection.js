@@ -24,7 +24,7 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-20-05</p>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-4 col-6-md">
                         <div className="article__image-container">
                             <img className="article__image-news--one" src={imageOne} alt="news"/>
                         </div>
@@ -48,7 +48,7 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-22-05</p>
                         </div>
                     </div>
-                    <div className="col-10 news-section__column-10">
+                    <div className="col-10 col-12-md news-section__column-10">
                         <div className="article__text-container">
                             <h5 className="article__header">News heading Here</h5>
                             <p className="article__paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing. There are many variations of passages of Lorem.</p>
@@ -64,7 +64,7 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-24-05</p>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-4 col-6-md">
                         <div className="article__image-container">
                             <img className="article__image-news--one" src={imageTwo} alt="news"/>
                             <div className="article__sub-image-container">
@@ -93,7 +93,7 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-26-05</p>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-4 col-6-md">
                         <div className="article__image-container">
                             <img src={imageThree} alt="news"/>
                         </div>

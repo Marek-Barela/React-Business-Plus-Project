@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import NewsSection from './NewsComponents/NewsSection';
+import React, { Component } from "react";
+import NewsSection from "./NewsComponents/NewsSection";
 
 class NewsPage extends Component {
     componentDidMount () {

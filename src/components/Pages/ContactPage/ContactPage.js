@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ContactSection from './ContactComponents/ContactSection';
+import React, { Component } from "react";
+import ContactSection from "./ContactComponents/ContactSection";
 
 class ContactPage extends Component {
   componentDidMount () {

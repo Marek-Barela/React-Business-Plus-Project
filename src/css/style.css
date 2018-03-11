@@ -1074,9 +1074,9 @@ footer {
   font-size: 10px; }
 
 .news-section__article--two {
-  min-height: 320px;
+  min-height: 300px;
   background-color: #eaeff3;
-  padding: 80px 0; }
+  padding: 60px 0; }
 
 .news-section__article--three {
   position: relative;
@@ -1109,7 +1109,7 @@ footer {
 
 .news-section__container--four {
   position: relative;
-  min-height: 440px; }
+  min-height: 410px; }
   .news-section__container--four .pyramids__shape {
     position: absolute;
     bottom: 0;
@@ -1377,6 +1377,8 @@ footer {
     padding: 0 20px; }
   .news-section__column-10 {
     padding-left: 20px; }
+  .news-section__container--four {
+    min-height: 400px; }
   .article__sub-image-container {
     display: none; }
   .article__blue-box {
@@ -1394,11 +1396,16 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .col-4-md {
     width: 33.33%; }
+  .col-6-md {
+    width: 50%; }
   .col-12-md {
     width: 100%; }
   .btn {
     width: 135px;
     height: 45px; }
+  .article__paragraph {
+    font-size: 0.7;
+    line-height: 25px; }
   .header {
     padding: 0 20px; }
   .header__logo p {
@@ -1470,11 +1477,68 @@ footer {
   .partners__section--home {
     min-height: 650px; }
   .partners__container--home {
+    min-height: 650px; }
+  .views__container {
+    overflow-x: hidden; }
+    .views__container header {
+      padding: 0 30px; }
+  .views__image-container {
+    display: none; }
+  .views__bottom-column .col-12-md {
+    margin: 0;
+    padding-right: 30px; }
+  .services__section--services {
+    min-height: 1520px; }
+  .services-article__header {
+    text-align: left;
+    padding: 10px 30px; }
+  .services-article__paragraph {
+    padding: 10px 30px; }
+  .services-article__button {
+    margin-left: 30px; }
+  .article__container .col-2 {
+    display: none; }
+  .article__image-container img {
+    max-width: 100%; }
+  .article__sub-paragraph {
+    margin: 15px 0 0 0;
+    font-size: 0.65em; }
+  .news-section__article--two {
+    padding: 40px 0;
+    min-height: 280px; }
+  .news-section__column-10 p {
+    width: 100%; }
+  .news-section__article--three {
+    min-height: 420px; }
+  .article__sub-image-container {
+    display: none; }
+  .article__blue-box {
+    display: none; }
+  .blog__article .col-1 img {
+    display: none; }
+  .post__article {
+    min-height: 1240px; }
+  .article__post-author {
+    display: none; }
+  .FAQ__section {
+    min-height: 1200px; }
+  .faq__item {
+    height: 180px; }
+  .faq__header {
+    font-size: 0.75em;
+    letter-spacing: 1px; }
+  .faq__paragraph {
+    font-size: 0.7em; }
+  .contact-page__section {
     min-height: 650px; } }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  body {
-    display: none; } }
+  .btn {
+    width: 135px;
+    height: 45px; }
+  .article__paragraph {
+    font-size: 0.7;
+    line-height: 25px; } }
 
 @media screen and (max-width: 479px) {
   body {

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import HeroSection from './ServicesComponents/HeroSection';
-import ServicesSection from './ServicesComponents/ServicesSection';
-import ClientSection from '../HomePage/HomeComponents/ClientSection';
+import React, { Component } from "react";
+import HeroSection from "./ServicesComponents/HeroSection";
+import ServicesSection from "./ServicesComponents/ServicesSection";
+import ClientSection from "../HomePage/HomeComponents/ClientSection";
 
 class ServicesPage extends Component {
   componentDidMount () {
