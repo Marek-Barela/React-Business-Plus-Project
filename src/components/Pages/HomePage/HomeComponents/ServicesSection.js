@@ -12,10 +12,12 @@ const ServicesSection = (props) => {
         <div className='services__container--home container'>
           <div className='row'>
             <div className='col-12 services__column-12--home'>
-              <h3 className='section__header'>Services</h3>
-              <span className='section__subheading'>What we are doing</span>
+              <header>
+                <h3 className='section__header'>Services</h3>
+                <span className='section__subheading'>What we are doing</span>
+              </header>
             </div>
-            <div className='col-6'>
+            <div className='col-6 col-12-md'>
               <div className='section__item--home'>
                 <div className='item__icon--home'>
                   <img src={rocked} alt="Rocked"/>
@@ -37,7 +39,7 @@ const ServicesSection = (props) => {
                 </div>
               </div>
             </div>
-            <div className='col-6'>
+            <div className='col-6 col-12-md'>
             <div className='section__item--home'>
                 <div className='item__icon--home'>
                   <img src={support} alt="support"/>

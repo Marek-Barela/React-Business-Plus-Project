@@ -1,9 +1,9 @@
 //-----------------------------------GLOBAL STYLES-------------------------------//
 @import './normalize.scss'
+@import './hamburgers/hamburgers.scss'
 *
     box-sizing: border-box
 body
-    //font-family: 'Lora', serif
     font-family: 'Raleway', sans-serif
 a
     text-decoration: none
@@ -92,7 +92,6 @@ a
     span
         padding-left: 20px
         letter-spacing: 2px
-        font-size: 15px
     p
         font-family: auto
         padding-left: 20px
@@ -101,6 +100,11 @@ a
     border-left: 2px solid rgba(221,228,234, 0.15)
     margin-left: 20px
     padding: 12px 0
+.header__navigation--hamburger
+    display: none
+    position: absolute
+    top: 20px
+    right: 10px
 .header__navigation
     float: right
     margin-top: 40px
@@ -135,7 +139,7 @@ main
 footer
     min-height: 450px
     background-color: #2a2b2c
-    padding: 80px 0
+    padding: 80px 20px
     color: white
 .footer__logo
     margin-top: 50px
@@ -221,6 +225,7 @@ footer
 .hero__section--home
     background-image: url(../components/Images/home-background.png)
     min-height: 800px
+    padding: 0 20px
     color: white
 .hero__container--home
     min-height: 800px
@@ -253,7 +258,7 @@ footer
 //HOME PAGE / ABOUT SECTION
 .about__section--home
     min-height: 360px
-    padding: 100px 0 120px 0
+    padding: 100px 20px 120px 20px
 .about__paragraph--home
     width: 85%
 .about__button--home
@@ -261,6 +266,7 @@ footer
 //HOME PAGE / SERVICE SECTION
 .services__section--home
     min-height: 600px
+    padding: 0 20px
     background-color: #eaeff3
     text-align: left
 .services__container--home
@@ -328,7 +334,7 @@ footer
 .news__section--home
     background-color: #eaeff3
     min-height: 730px
-    padding: 60px 0
+    padding: 60px 20px
 .news__column-12--home
     margin-bottom: 50px
 .news__statistics--home
@@ -376,14 +382,17 @@ footer
 //HOME PAGE / PARTNERS SECTION
 .partners__section--home
     min-height: 480px
+    padding: 0 20px
 .partners__container--home
     min-height: 480px
     position: relative
     padding: 40px 0 70px 0
 .logo__container
     margin-top: 50px
-    padding: 20px 55px
     border: 1px solid #eaeff3
+    display: flex
+    justify-content: center
+    padding: 25px
     img
         width: 88px
         height: 88px
@@ -399,7 +408,7 @@ footer
 //ABOUT PAGE / ABOUT SECTION
 .about__section--about
     min-height: 950px
-    padding: 80px 0
+    padding: 80px 20px
 .about__paragraph--about
     margin-top: 25px
 .about__image-container--about
@@ -466,6 +475,7 @@ footer
         width: 100%
 .services-article__header, .services-article__paragraph
     padding: 10px 70px
+    text-align: justify
 .services-article__header
     margin: 30px 0 0 0
 .services-article__paragraph
@@ -482,7 +492,9 @@ footer
     min-height: 370px
 //NEWS PAGE / NEWS SECTION
 .news__container--news
-    padding: 80px 0
+    padding: 40px 20px 0 20px
+.article__container
+    padding: 0 20px
 .news-section__article--one
     min-height: 380px
     padding-bottom: 80px
@@ -518,6 +530,7 @@ footer
     background-color: #eaeff3
     padding: 80px 0
 .news-section__article--three
+    position: relative
     min-height: 520px
     padding: 50px 0
 .article__sub-image-container
@@ -555,7 +568,7 @@ footer
 //BLOG PAGE / HERO SECTION
 .blog__container--blog
     position: relative
-    padding: 80px 0 150px
+    padding: 80px 20px 150px 20px
 .blog__pyramids
     position: absolute
     bottom: 0
@@ -610,7 +623,7 @@ footer
 //---------------------------------BlogPageArticle----------------------------------//
 //BLOG ARTICLE PAGE / POST SECTION
 .post__section
-    padding: 80px 0 100px 0
+    padding: 80px 20px 100px 20px
 .post__article
     min-height: 1440px
 .post__yellow-container
@@ -628,6 +641,8 @@ footer
 .article__post-author
     display: flex
     margin-top: 50px
+    img
+        height: 100%
 .post-author__message-content
     height: 100%
     background-color: #36a8ff
@@ -647,7 +662,7 @@ footer
     margin: 0
 .post-author__paragraph
     font-size: 0.9em
-    line-height: 28px
+    line-height: 24px
     padding: 0 50px
     margin: 0
     color: #dbefff
@@ -664,11 +679,13 @@ footer
     min-height: 370px
 .FAQ__section
     min-height: 1040px
-    padding: 80px 0
+    padding: 80px 20px
 .faq__item
     height: 140px
     margin-top: 45px
-    padding-bottom: 30px
+    padding-bottom: 40px
+    .col-11
+        padding-left: 20px
 .item__yellow-shape
     width: 30px
     height: 30px
@@ -690,7 +707,7 @@ footer
     min-height: 370px
 .contact-page__section
     min-height: 800px
-    padding: 80px 0
+    padding: 80px 20px
 .contact__details
     display: flex
     align-items: center
@@ -708,6 +725,9 @@ footer
     align-items: center
 .detail__email-box
     border: 1px solid #ffaf36
+    transition: background-color 1s
+    &:hover
+        background-color: #ffaf36
 .contact__image-container
     margin-top: 40px
     position: relative
@@ -726,3 +746,178 @@ footer
     font-weight: 800
     letter-spacing: 2px
     color: white
+@media screen and (min-width: 992px) and (max-width: 1250px)
+    //--GLOBAL--//
+    .col-4-lg
+        width: 33.33%
+    .col-12-lg
+        width: 100%
+    //--HEADER--//
+    .header
+        padding: 0 20px
+    .header__logo
+        p
+            font-size: 0.85em
+    .header__navigation
+        li
+            padding-right: 25px
+            font-size: 0.80em
+    //--FOOTER--//
+    .footer__navigation
+        li
+            margin: 0 70px 10px 0
+    //--HOMEPAGE--//
+    .news__section--home
+        min-height: 760px
+    .news__article--home
+        width: 100%
+        img
+             max-width: 100%
+    .partners__section--home
+        min-height: 650px
+    .partners__container--home
+        min-height: 650px
+    //--ABOUTPAGE--//
+    .views__section
+        min-height: 650px
+    .views__container
+        min-height: 650px
+        header
+            padding: 0 20px
+    .views__image-container
+        img
+            display: none
+    .views__top-column
+        .col-9
+            margin: 0
+            padding-left: 20px
+    .views__bottom-column
+        .col-9
+            margin: 0
+            padding-right: 20px
+    //--NEWS--//
+    .article__container
+        img
+            max-width: 100%
+    .news-section__article--two
+        min-height: 300px
+        padding: 50px 0
+    .news-section__article--three
+        min-height: 540px
+    .article__image-container
+        padding: 0 20px
+    .news-section__column-10
+        padding-left: 20px
+    .article__sub-image-container
+        display: none
+    .article__blue-box
+        position: absolute
+        bottom: 20px
+        left: 50%
+        transform: translateX(-50%)
+    //--BLOG--//
+    .article__post-author
+        .col-10
+            margin-left: 30px
+    .faq__header
+        font-size: 0.8em
+    .faq__paragraph
+        font-size: 0.7em
+@media screen and (min-width: 768px) and (max-width: 992px)
+    //--GLOBAL--//
+    .col-4-md
+        width: 33.33%
+    .col-12-md
+        width: 100%
+    .btn
+        width: 135px
+        height: 45px
+    //--HEADER--//
+    .header
+        padding: 0 20px
+    .header__logo
+        p
+            font-size: 0.85em
+    .header__navigation
+        display: none
+    .header__navigation--hamburger
+        display: block
+        position: fixed
+    //--FOOTER--//
+    footer
+        min-height: 120px
+        padding: 40px 0
+    .footer__logo
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin: 0
+    .navigation__column
+        display: none
+    .contact__column
+        display: none
+    .logo__paragraph
+        margin-bottom: 5px
+    //--HOMEPAGE--//
+    .hero__section--home
+        min-height: 600px
+    .hero__container--home
+        min-height: 600px
+    .hero__content--home
+        span
+            font-size: 0.8em
+            padding-left: 3px
+    .hero__header--home
+        font-size: 2.3em
+    .hero__paragraph--home
+        font-size: 0.75em
+    //--ABOUTPAGE--//
+    .about__section--home
+        min-height: 320px
+        padding: 50px 20px
+    .about__paragraph--home
+        text-align: justify
+        width: 90%
+    //--SERVICE--//
+    .services__column-12--home
+        header
+            text-align: center
+    .section__item--home
+        padding: 0 17%
+    .item__paragraph--home
+        text-align: justify
+    .service__button--home
+        position: relative
+        left: 50%
+        transform: translateX(-50%)
+    //--CLIENT--//
+    .client__content--home
+        padding: 45px 15px 0 15px
+    .client__paragrph--home
+        font-size: 0.8em
+    //--NEWS--//
+    .news__statistics--home
+        display: none
+    .news__article--home
+        width: 100%
+        padding: 0
+        img
+            max-width: 100%
+    .news__article-header--no-margin
+        margin-top: 0
+    .news__article-paragraph--home
+        text-align: justify
+        width: 100%
+    .news__button--home
+        margin-top: 10px
+    .partners__section--home
+        min-height: 650px
+    .partners__container--home
+        min-height: 650px
+        
+@media screen and (min-width: 480px) and (max-width: 768px)
+    body
+        display: none
+@media screen and (max-width: 479px)
+    body
+        display: none

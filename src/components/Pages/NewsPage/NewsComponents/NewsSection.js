@@ -10,9 +10,11 @@ import pyramids from "../../../Images/pyramid-shape.png";
 const NewsSection = (props) => {
     return (
         <section className="news__section--news">
-            <div className="container">
-                <h3 className="section__header">News</h3>
-                <p className="section__subheading">Featured News</p>
+            <div className="news__container--news container">
+                <header>
+                    <h3 className="section__header">News</h3>
+                    <p className="section__subheading">Featured News</p>
+                </header>
             </div>
             <article className="news-section__article--one">
                 <div className="article__container container">
@@ -46,7 +48,7 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-22-05</p>
                         </div>
                     </div>
-                    <div className="col-10">
+                    <div className="col-10 news-section__column-10">
                         <div className="article__text-container">
                             <h5 className="article__header">News heading Here</h5>
                             <p className="article__paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing. There are many variations of passages of Lorem.</p>

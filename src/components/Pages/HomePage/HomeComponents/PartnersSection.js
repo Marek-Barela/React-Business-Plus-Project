@@ -17,22 +17,22 @@ const PartnersSection = (props) => {
                     <span className='section__subheading'>Our Great Partners</span>
                 </div>
                 <div className='col-12'>
-                    <div className='col-2 logo__container'>
+                    <div className='col-2 col-4-lg col-4-md logo__container'>
                         <img src={logo1} alt="Beerbeer"/>
                     </div>
-                    <div className='col-2 logo__container'>
+                    <div className='col-2 col-4-lg col-4-md logo__container'>
                         <img src={logo2} alt="Prestiges"/>
                     </div>
-                    <div className='col-2 logo__container'>
+                    <div className='col-2 col-4-lg col-4-md logo__container'>
                         <img src={logo3} alt="Deerbrand"/>
                     </div>
-                    <div className='col-2 logo__container'>
+                    <div className='col-2 col-4-lg col-4-md logo__container'>
                         <img src={logo4} alt="Genuine"/>
                     </div>
-                    <div className='col-2 logo__container'>
+                    <div className='col-2 col-4-lg col-4-md logo__container'>
                         <img src={logo5} alt="Retrobrand"/>
                     </div>
-                    <div className='col-2 logo__container'>
+                    <div className='col-2 col-4-lg col-4-md logo__container'>
                         <img src={logo6} alt="Retrodesign"/>
                     </div>
                 </div>

@@ -8,8 +8,8 @@ const Footer = (props) => {
         <footer>
             <div className='footer__container container'>
                 <div className='row'>
-                    <div className='col-6'>
-                        <div className='col-6 footer__logo'>
+                    <div className='col-6 col-12-md'>
+                        <div className='col-6 col-12-md footer__logo'>
                             <Link to="/"><img src={logo} alt="Logo"/></Link>
                             <p className='logo__paragraph'>2015 © lawyer.</p>
                             <div className='footer__media'>

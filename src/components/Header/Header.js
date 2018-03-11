@@ -15,6 +15,11 @@ const Header = (props) => {
                 <p>+9978 8856 999</p>           
             </div>
             <Navigation className='header__navigation' />
+            <button className="header__navigation--hamburger hamburger hamburger--spin" type="button">
+              <span className="hamburger-box">
+                <span className="hamburger-inner"></span>
+              </span>
+            </button>
         </div>
       </header>
     );
