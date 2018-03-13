@@ -9,7 +9,7 @@ const FAQSection = (props) => {
                         <h3 className="section__header">Faq’s</h3>
                         <p className="section__subheading">frequently asked questions</p>
                     </header>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <div className="faq__item">
                             <div className="col-1">
                                 <div className="item__yellow-shape">
@@ -55,7 +55,7 @@ const FAQSection = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <div className="faq__item">
                             <div className="col-1">
                                 <div className="item__yellow-shape">

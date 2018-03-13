@@ -24,12 +24,12 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-20-05</p>
                         </div>
                     </div>
-                    <div className="col-4 col-6-md">
+                    <div className="col-4 col-6-md col-12-sm">
                         <div className="article__image-container">
                             <img className="article__image-news--one" src={imageOne} alt="news"/>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <div className="article__text-container">
                             <h5 className="article__header">News heading Here</h5>
                             <p className="article__paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -64,7 +64,7 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-24-05</p>
                         </div>
                     </div>
-                    <div className="col-4 col-6-md">
+                    <div className="col-4 col-6-md col-12-sm">
                         <div className="article__image-container">
                             <img className="article__image-news--one" src={imageTwo} alt="news"/>
                             <div className="article__sub-image-container">
@@ -73,7 +73,7 @@ const NewsSection = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <div className="article__text-container">
                             <h5 className="article__header">News heading Here</h5>
                             <p className="article__paragraph">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem.</p>
@@ -93,12 +93,12 @@ const NewsSection = (props) => {
                             <p className="shape__paragraph">october-26-05</p>
                         </div>
                     </div>
-                    <div className="col-4 col-6-md">
+                    <div className="col-4 col-6-md col-12-sm">
                         <div className="article__image-container">
                             <img src={imageThree} alt="news"/>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <div className="article__text-container">
                             <h5 className="article__header">News heading Here</h5>
                             <p className="article__paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

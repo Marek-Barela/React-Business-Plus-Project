@@ -12,7 +12,7 @@ const HeroSection = (props) => {
                 <div className="row">
                     <h3 className="section__header">Service</h3>
                     <p className="section__subheading">Our Products</p>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesOne} alt="aricle"/>
                             <h5 className="article__header services-article__header">Boosting your business</h5>
@@ -20,7 +20,7 @@ const HeroSection = (props) => {
                             <Link to="/Contact"><button className="btn section__button services-article__button">Contact Us</button></Link>
                         </article>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesTwo} alt="aricle"/>
                             <h5 className="article__header services-article__header">Boosting your business</h5>
@@ -28,7 +28,7 @@ const HeroSection = (props) => {
                             <Link to="/Contact"><button className="btn section__button services-article__button">Contact Us</button></Link>
                         </article>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesthree} alt="aricle"/>
                             <h5 className="article__header services-article__header">Boosting your business</h5>
@@ -36,7 +36,7 @@ const HeroSection = (props) => {
                             <Link to="/Contact"><button className="btn section__button services-article__button">Contact Us</button></Link>
                         </article>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesFour} alt="aricle"/>
                             <h5 className="article__header services-article__header">Boosting your business</h5>

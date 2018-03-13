@@ -13,10 +13,12 @@ const ClientSection = (props) => {
         <div className="client__container--home container">
             <div className="row">
                 <div className="col-12 client__column-12--home">
-                    <h5 className="section__header">Clients</h5>
-                    <span className="section__subheading">Whats our client says</span>
+                    <header>
+                        <h5 className="section__header">Clients</h5>
+                        <span className="section__subheading">Whats our client says</span>
+                    </header>
                 </div>
-                <div className="col-4">
+                <div className="col-4 col-12-sm">
                     <div className="client__content--home">
                         <img className="quote__img--home" src={icon1} alt="quote"/>
                         <p className="section__paragraph client__paragrph--home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown.</p>
@@ -29,7 +31,7 @@ const ClientSection = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-4 col-12-sm">
                     <div className="client__content--home">
                         <img className="quote__img--home" src={icon2} alt="quote"/>
                         <p className="section__paragraph client__paragrph--home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown.</p>
@@ -42,7 +44,7 @@ const ClientSection = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-4 col-12-sm">
                     <div className="client__content--home">
                         <img className="quote__img--home" src={icon3} alt="quote"/>
                         <p className="section__paragraph client__paragrph--home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown.</p>

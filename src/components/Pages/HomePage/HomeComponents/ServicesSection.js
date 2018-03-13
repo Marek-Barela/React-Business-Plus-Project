@@ -17,7 +17,7 @@ const ServicesSection = (props) => {
                 <span className="section__subheading">What we are doing</span>
               </header>
             </div>
-            <div className="col-6 col-12-md">
+            <div className="col-6 col-12-md col-12-sm">
               <div className="section__item--home">
                 <div className="item__icon--home">
                   <img src={rocked} alt="Rocked"/>
@@ -39,7 +39,7 @@ const ServicesSection = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-12-md">
+            <div className="col-6 col-12-md col-12-sm">
             <div className="section__item--home">
                 <div className="item__icon--home">
                   <img src={support} alt="support"/>

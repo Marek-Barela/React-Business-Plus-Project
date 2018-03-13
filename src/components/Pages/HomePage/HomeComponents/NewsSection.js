@@ -31,14 +31,14 @@ const NewsSection = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
+                    <div className="col-5 col-12-sm">
                         <article className="news__article--home">
                             <img src={articleImg} alt="article"/>
                             <h5 className="article__header">Blog Heading</h5>
                             <p className="article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy...</p>
                         </article>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 col-12-sm">
                         <article className="news__article--right news__separator">
                             <h5 className="article__header news__article-header--no-margin">Blog Heading</h5>
                             <p className="article__date">30 - Oct - 2015</p>
