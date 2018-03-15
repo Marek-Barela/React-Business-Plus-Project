@@ -23,7 +23,7 @@ const HeroSection = (props) => {
                     <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesTwo} alt="aricle"/>
-                            <h5 className="article__header services-article__header">Boosting your business</h5>
+                            <h5 className="article__header services-article__header">Online support</h5>
                             <p className="article__paragraph services-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the.</p>
                             <Link to="/Contact"><button className="btn section__button services-article__button">Contact Us</button></Link>
                         </article>
@@ -31,7 +31,7 @@ const HeroSection = (props) => {
                     <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesthree} alt="aricle"/>
-                            <h5 className="article__header services-article__header">Boosting your business</h5>
+                            <h5 className="article__header services-article__header">analyzing business strategy</h5>
                             <p className="article__paragraph services-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the.</p>
                             <Link to="/Contact"><button className="btn section__button services-article__button">Contact Us</button></Link>
                         </article>
@@ -39,7 +39,7 @@ const HeroSection = (props) => {
                     <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesFour} alt="aricle"/>
-                            <h5 className="article__header services-article__header">Boosting your business</h5>
+                            <h5 className="article__header services-article__header">Time managment</h5>
                             <p className="article__paragraph services-article__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the.</p>
                             <Link to="/Contact"><button className="btn section__button services-article__button">Contact Us</button></Link>
                         </article>

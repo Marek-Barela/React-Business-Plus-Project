@@ -11,7 +11,7 @@ const Header = (props) => {
             <div className="header__logo">
                 <Link to="/"><img className="logo" src={logo} alt="business plus" /></Link>
                 <span className="logo__item"></span>
-                <img src={phone} alt="Call to us"/>
+                <img className="logo__phone" src={phone} alt="Call to us"/>
                 <p>+9978 8856 999</p>           
             </div>
             <Navigation className="header__navigation" />

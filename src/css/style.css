@@ -465,6 +465,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+section, article {
+  overflow: hidden; }
+
 .container {
   max-width: 1200px;
   margin: 0 auto; }
@@ -618,9 +621,9 @@ main {
     transform: translateY(0); } }
 
 footer {
-  min-height: 450px;
   background-color: #2a2b2c;
   padding: 80px 20px;
+  min-height: 450px;
   color: white; }
 
 .footer__logo {
@@ -750,7 +753,6 @@ footer {
     color: white; }
 
 .about__section--home {
-  min-height: 360px;
   padding: 100px 20px 120px 20px; }
 
 .about__paragraph--home {
@@ -760,13 +762,11 @@ footer {
   margin-top: 15px; }
 
 .services__section--home {
-  min-height: 600px;
   padding: 0 20px;
   background-color: #eaeff3;
   text-align: left; }
 
 .services__container--home {
-  min-height: 600px;
   padding: 90px 0;
   position: relative; }
 
@@ -811,8 +811,7 @@ footer {
   right: 40px; }
 
 .client__section--home {
-  min-height: 550px;
-  padding: 50px 0 0 0; }
+  padding: 50px 0 80px 0; }
 
 .client__column-12--home {
   padding-left: 35px; }
@@ -844,7 +843,6 @@ footer {
 
 .news__section--home {
   background-color: #eaeff3;
-  min-height: 730px;
   padding: 60px 20px; }
 
 .news__column-12--home {
@@ -903,13 +901,8 @@ footer {
   margin: 30px 0 0 50px; }
 
 .partners__section--home {
-  min-height: 480px;
-  padding: 0 20px; }
-
-.partners__container--home {
-  min-height: 480px;
-  position: relative;
-  padding: 40px 0 70px 0; }
+  padding: 40px 20px 150px 20px;
+  position: relative; }
 
 .logo__container {
   margin-top: 50px;
@@ -931,7 +924,6 @@ footer {
   min-height: 370px; }
 
 .about__section--about {
-  min-height: 950px;
   padding: 80px 20px; }
 
 .about__paragraph--about {
@@ -953,12 +945,8 @@ footer {
 
 .views__section {
   background-color: #eaeff3;
-  min-height: 700px; }
-
-.views__container {
   position: relative;
-  min-height: 700px;
-  padding: 80px 0; }
+  padding: 60px 0 80px 0; }
 
 .views__top-column {
   margin-top: 30px; }
@@ -999,7 +987,6 @@ footer {
   border: 1px solid #eaeff3; }
 
 .services__section--services {
-  min-height: 1600px;
   padding: 80px 0; }
 
 .services__container--services {
@@ -1037,7 +1024,6 @@ footer {
   padding: 0 20px; }
 
 .news-section__article--one {
-  min-height: 380px;
   padding-bottom: 80px; }
 
 .article__shape-container {
@@ -1074,13 +1060,11 @@ footer {
   font-size: 10px; }
 
 .news-section__article--two {
-  min-height: 300px;
   background-color: #eaeff3;
   padding: 60px 0; }
 
 .news-section__article--three {
   position: relative;
-  min-height: 520px;
   padding: 50px 0; }
 
 .article__sub-image-container {
@@ -1103,14 +1087,10 @@ footer {
   font-style: italic; }
 
 .news-section__article--four {
-  min-height: 440px;
   background-color: #eaeff3;
-  padding: 50px 0 0 0; }
-
-.news-section__container--four {
-  position: relative;
-  min-height: 410px; }
-  .news-section__container--four .pyramids__shape {
+  padding: 50px 0 60px 0;
+  position: relative; }
+  .news-section__article--four .pyramids__shape {
     position: absolute;
     bottom: 0;
     right: 40px; }
@@ -1129,7 +1109,6 @@ footer {
   right: 40px; }
 
 .blog__article {
-  min-height: 670px;
   margin-top: 40px;
   border-bottom: 1px solid #e6e9ee; }
 
@@ -1151,7 +1130,8 @@ footer {
 
 .media__container {
   display: flex;
-  float: left; }
+  float: left;
+  margin-bottom: 50px; }
   .media__container p {
     font-size: 0.9em;
     letter-spacing: 1px; }
@@ -1186,9 +1166,6 @@ footer {
 
 .post__section {
   padding: 80px 20px 100px 20px; }
-
-.post__article {
-  min-height: 1440px; }
 
 .post__yellow-container {
   margin-left: 90px;
@@ -1249,7 +1226,6 @@ footer {
   min-height: 370px; }
 
 .FAQ__section {
-  min-height: 1040px;
   padding: 80px 20px; }
 
 .faq__item {
@@ -1276,11 +1252,10 @@ footer {
   margin-top: 0; }
 
 .hero__section--contact {
-  background-image: url(../components/Images/contact-background.png);
-  min-height: 370px; }
+  min-height: 370px;
+  background-image: url(../components/Images/contact-background.png); }
 
 .contact-page__section {
-  min-height: 800px;
   padding: 80px 20px; }
 
 .contact__details {
@@ -1342,22 +1317,12 @@ footer {
     font-size: 0.80em; }
   .footer__navigation li {
     margin: 0 70px 10px 0; }
-  .news__section--home {
-    min-height: 760px; }
   .news__article--home {
     width: 100%; }
     .news__article--home img {
       max-width: 100%; }
-  .partners__section--home {
-    min-height: 650px; }
-  .partners__container--home {
-    min-height: 650px; }
-  .views__section {
-    min-height: 650px; }
-  .views__container {
-    min-height: 650px; }
-    .views__container header {
-      padding: 0 20px; }
+  .views__container header {
+    padding: 0 20px; }
   .views__image-container img {
     display: none; }
   .views__top-column .col-9 {
@@ -1369,16 +1334,13 @@ footer {
   .article__container img {
     max-width: 100%; }
   .news-section__article--two {
-    min-height: 300px;
     padding: 50px 0; }
-  .news-section__article--three {
-    min-height: 540px; }
   .article__image-container {
     padding: 0 20px; }
   .news-section__column-10 {
     padding-left: 20px; }
-  .news-section__container--four {
-    min-height: 400px; }
+  .news-section__article--three {
+    padding-bottom: 220px; }
   .article__sub-image-container {
     display: none; }
   .article__blue-box {
@@ -1416,7 +1378,7 @@ footer {
     display: block;
     position: fixed; }
   footer {
-    min-height: 120px;
+    min-height: 130px;
     padding: 40px 0; }
   .footer__logo {
     display: flex;
@@ -1429,10 +1391,6 @@ footer {
     display: none; }
   .logo__paragraph {
     margin-bottom: 5px; }
-  .hero__section--home {
-    min-height: 600px; }
-  .hero__container--home {
-    min-height: 600px; }
   .hero__content--home span {
     font-size: 0.8em;
     padding-left: 3px; }
@@ -1441,7 +1399,6 @@ footer {
   .hero__paragraph--home {
     font-size: 0.75em; }
   .about__section--home {
-    min-height: 320px;
     padding: 50px 20px; }
   .about__paragraph--home {
     text-align: justify;
@@ -1475,11 +1432,7 @@ footer {
   .news__button--home {
     margin-top: 10px; }
   .partners__section--home {
-    min-height: 650px; }
-  .partners__container--home {
-    min-height: 650px; }
-  .about__section--about {
-    min-height: 800px; }
+    text-align: center; }
   .views__container {
     overflow-x: hidden; }
     .views__container header {
@@ -1489,8 +1442,6 @@ footer {
   .views__bottom-column .col-12-md {
     margin: 0;
     padding-right: 30px; }
-  .services__section--services {
-    min-height: 1520px; }
   .services-article__header {
     text-align: left;
     padding: 10px 30px; }
@@ -1506,33 +1457,28 @@ footer {
     margin: 15px 0 0 0;
     font-size: 0.65em; }
   .news-section__article--two {
-    padding: 40px 0;
-    min-height: 280px; }
+    padding: 40px 0; }
   .news-section__column-10 p {
     width: 100%; }
   .news-section__article--three {
-    min-height: 420px; }
+    padding-bottom: 60px; }
   .article__sub-image-container {
     display: none; }
   .article__blue-box {
     display: none; }
+  .news-section__article--four {
+    padding-bottom: 120px; }
   .blog__article .col-1 img {
     display: none; }
-  .post__article {
-    min-height: 1240px; }
   .article__post-author {
     display: none; }
-  .FAQ__section {
-    min-height: 1200px; }
   .faq__item {
     height: 180px; }
   .faq__header {
     font-size: 0.75em;
     letter-spacing: 1px; }
   .faq__paragraph {
-    font-size: 0.7em; }
-  .contact-page__section {
-    min-height: 650px; } }
+    font-size: 0.7em; } }
 
 @media screen and (max-width: 768px) {
   .col-6-sm {
@@ -1563,11 +1509,10 @@ footer {
   .footer__media {
     margin-top: 10px; }
   .hero__section--home {
-    background-position: 75%; }
-  .hero__section--home {
-    min-height: 550px; }
+    background-position: 75%;
+    min-height: 500px; }
   .hero__container--home {
-    min-height: 550px; }
+    min-height: 500px; }
   .hero__content--home {
     top: 80%; }
     .hero__content--home span {
@@ -1580,7 +1525,6 @@ footer {
   .hero__button--home {
     display: none; }
   .about__section--home {
-    min-height: 340px;
     padding: 60px 20px 30px 20px; }
   .section__item--home {
     justify-content: center;
@@ -1600,8 +1544,6 @@ footer {
     padding: 0; }
     .client__column-12--home header {
       text-align: center; }
-  .client__section--home {
-    min-height: 1000px; }
   .client__paragrph--home {
     text-align: center;
     padding: 0 15% 50px 20%;
@@ -1612,8 +1554,6 @@ footer {
   .quote__img--home {
     top: 20%;
     left: 30%; }
-  .news__section--home {
-    min-height: 1050px; }
   .news__article--home {
     padding: 10px 30px; }
     .news__article--home img {
@@ -1626,26 +1566,14 @@ footer {
     border: none; }
   .news__button--home {
     margin: 30px 0 0 30px; }
-  .partners__section--home {
-    min-height: 810px; }
-  .partners__container--home {
-    min-height: 810px; }
-  .about__section--about {
-    min-height: 700px; }
   .button__container--about {
     width: 300px; }
-  .views__section {
-    min-height: auto; }
   .views__container {
-    padding: 40px 0 90px 0;
-    min-height: auto; }
+    padding: 40px 0 90px 0; }
     .views__container header {
       padding: 0 30px; }
   .services__section--services {
-    min-height: 2800px;
     padding: 50px 0 100px 0; }
-  .news-section__article--one, .news-section__article--three {
-    min-height: 630px; }
   .article__image-container {
     text-align: center;
     padding: 0; }
@@ -1653,14 +1581,12 @@ footer {
     text-align: center; }
     .article__text-container .article__paragraph {
       width: 100%;
-      padding: 20px 50px; }
+      padding: 20px 50px;
+      text-align: justify; }
     .article__text-container .article__sub-paragraph {
       font-size: 0.8em; }
   .news-section__article--two {
-    padding: 10px 0;
-    min-height: 310px; }
-  .news-section__container--four {
-    min-height: 680px; }
+    padding: 10px 0; }
   .hero__section--blog {
     background-position: 70%; }
   .blog-article__paragraph {
@@ -1669,22 +1595,14 @@ footer {
     width: 35px;
     height: 35px;
     font-size: 0.75em; }
-  .blog__article {
-    min-height: 520px; }
-  .post__article {
-    min-height: 1350px; }
   .post__yellow-container {
     margin-left: 0; }
-  .FAQ__section {
-    min-height: 1600px; }
   .faq__item {
     margin-top: 20px;
     height: 150px;
     padding-bottom: 0; }
   .hero__section--contact {
     background-position: 70%; }
-  .contact-page__section {
-    min-height: 400px; }
   .detail__email-box p {
     font-size: 0.7em; }
   .contact-content__header {
@@ -1694,5 +1612,135 @@ footer {
     letter-spacing: 0.75px; } }
 
 @media screen and (max-width: 479px) {
-  body {
-    display: none; } }
+  .col-12-xs {
+    width: 100%; }
+  footer img {
+    width: 130px; }
+  .media__item {
+    margin-right: 5px; }
+    .media__item a {
+      font-size: 0.8em; }
+  .hero__section--home {
+    background-position: 72%; }
+  .header__logo span, .header__logo .logo__phone, .header__logo p {
+    display: none; }
+  .about__section--home {
+    text-align: center; }
+  .about__paragraph--home {
+    text-align: center; }
+  .services__container--home {
+    padding: 40px 0 100px 0; }
+  .item__content--home {
+    width: 100%;
+    padding-top: 0; }
+  .item__icon--home {
+    left: 50%;
+    transform: translateX(-50%); }
+  .client__section--home {
+    padding: 10px 0; }
+  .client__content--home {
+    padding-top: 20px; }
+  .client__paragrph--home {
+    padding: 0 0 25px 0; }
+  .client__data--home {
+    padding-bottom: 35px; }
+  .quote__img--home {
+    display: none; }
+  .news__section--home {
+    position: relative;
+    padding: 30px 20px 150px 20px; }
+  .news__column-12--home {
+    text-align: center; }
+  .news__article--home {
+    text-align: center;
+    padding: 0; }
+    .news__article--home p {
+      width: 100%; }
+  .news__article--right {
+    padding: 10px 0 0 0;
+    text-align: center; }
+  .news__separator {
+    padding-top: 30px; }
+  .news__article-paragraph--home {
+    text-align: center; }
+  .news__button--home {
+    margin: 0;
+    bottom: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  .about__section--about {
+    text-align: center; }
+  .button__container--about {
+    width: 250px; }
+    .button__container--about .section__button {
+      width: 90px;
+      height: 25px;
+      font-size: 10px; }
+  .views__container header {
+    text-align: center; }
+  .views-column__paragraph {
+    width: 100%;
+    text-align: justify; }
+  .views-column__header {
+    text-align: center; }
+  .views__top-column, .views__bottom-column {
+    text-align: center;
+    padding: 0 10px; }
+    .views__top-column .col-9, .views__bottom-column .col-9 {
+      padding: 0; }
+  .services__container--services {
+    text-align: center; }
+  .services__article {
+    position: relative;
+    padding-bottom: 120px; }
+  .services-article__header {
+    text-align: center; }
+  .services-article__paragraph {
+    padding: 10px; }
+  .services-article__button {
+    position: absolute;
+    margin: 0;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%); }
+  .news__section--news header {
+    text-align: center; }
+  .news__section--news .article__paragraph {
+    padding: 20px 0; }
+  .news-section__column-10 {
+    padding: 0; }
+  .blog__container--blog {
+    text-align: center;
+    padding: 30px 0 150px 0; }
+    .blog__container--blog .blog-article__subheading {
+      width: 100%; }
+  .blog-article__paragraph {
+    text-align: justify; }
+  .blog__button {
+    float: none;
+    margin-bottom: 30px; }
+  .yellow-container__paragraph {
+    padding: 15px 10px;
+    text-align: justify; }
+  .FAQ__section {
+    padding: 20px; }
+    .FAQ__section header {
+      text-align: center; }
+  .faq__paragraph {
+    width: 100%;
+    margin-bottom: 45px;
+    text-align: justify; }
+  .contact-page__section header {
+    text-align: center; }
+  .contact__details {
+    flex-direction: column; }
+  .contact__image-container {
+    margin-top: 100px;
+    color: black;
+    text-align: center; }
+    .contact__image-container img {
+      display: none; }
+  .contact-content__paragraph {
+    color: black;
+    text-align: center; } }

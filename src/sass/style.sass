@@ -8,6 +8,8 @@ body
 a
     text-decoration: none
     color: inherit
+section, article
+    overflow: hidden
 .container
     max-width: 1200px
     margin: 0 auto
@@ -137,9 +139,9 @@ main
     
 //FOOTER STYLES
 footer
-    min-height: 450px
     background-color: #2a2b2c
     padding: 80px 20px
+    min-height: 450px
     color: white
 .footer__logo
     margin-top: 50px
@@ -257,7 +259,6 @@ footer
         color: white
 //HOME PAGE / ABOUT SECTION
 .about__section--home
-    min-height: 360px
     padding: 100px 20px 120px 20px
 .about__paragraph--home
     width: 85%
@@ -265,12 +266,10 @@ footer
     margin-top: 15px
 //HOME PAGE / SERVICE SECTION
 .services__section--home
-    min-height: 600px
     padding: 0 20px
     background-color: #eaeff3
     text-align: left
 .services__container--home
-    min-height: 600px
     padding: 90px 0
     position: relative
 .services__column-12--home
@@ -307,8 +306,7 @@ footer
     right: 40px
 //HOME PAGE / CLIENT SECTION
 .client__section--home
-    min-height: 550px
-    padding: 50px 0 0 0
+    padding: 50px 0 80px 0
 .client__column-12--home
     padding-left: 35px
 .client__content--home
@@ -333,7 +331,6 @@ footer
 //HOME PAGE / NEWS SECTION
 .news__section--home
     background-color: #eaeff3
-    min-height: 730px
     padding: 60px 20px
 .news__column-12--home
     margin-bottom: 50px
@@ -381,12 +378,8 @@ footer
     margin: 30px 0 0 50px
 //HOME PAGE / PARTNERS SECTION
 .partners__section--home
-    min-height: 480px
-    padding: 0 20px
-.partners__container--home
-    min-height: 480px
+    padding: 40px 20px 150px 20px
     position: relative
-    padding: 40px 0 70px 0
 .logo__container
     margin-top: 50px
     border: 1px solid #eaeff3
@@ -407,7 +400,6 @@ footer
     min-height: 370px
 //ABOUT PAGE / ABOUT SECTION
 .about__section--about
-    min-height: 950px
     padding: 80px 20px
 .about__paragraph--about
     margin-top: 25px
@@ -426,11 +418,8 @@ footer
 //ABOUT PAGE / VIEWS SECTION    
 .views__section
     background-color: #eaeff3
-    min-height: 700px
-.views__container
     position: relative
-    min-height: 700px
-    padding: 80px 0
+    padding: 60px 0 80px 0
 .views__top-column
     margin-top: 30px
     .col-9
@@ -465,7 +454,6 @@ footer
 .services__article
     border: 1px solid #eaeff3
 .services__section--services
-    min-height: 1600px
     padding: 80px 0
 .services__container--services
     padding-left: 15px
@@ -496,7 +484,6 @@ footer
 .article__container
     padding: 0 20px
 .news-section__article--one
-    min-height: 380px
     padding-bottom: 80px
 .article__shape-container
     margin-top: 40px
@@ -526,12 +513,10 @@ footer
     padding-right: 7px
     font-size: 10px
 .news-section__article--two
-    min-height: 300px
     background-color: #eaeff3
     padding: 60px 0
 .news-section__article--three
     position: relative
-    min-height: 520px
     padding: 50px 0
 .article__sub-image-container
     display: flex
@@ -550,12 +535,9 @@ footer
     font-weight: bold
     font-style: italic
 .news-section__article--four
-    min-height: 440px
     background-color: #eaeff3
-    padding: 50px 0 0 0
-.news-section__container--four
+    padding: 50px 0 60px 0
     position: relative
-    min-height: 410px
     .pyramids__shape
         position: absolute
         bottom: 0
@@ -574,7 +556,6 @@ footer
     bottom: 0
     right: 40px
 .blog__article
-    min-height: 670px
     margin-top: 40px
     border-bottom: 1px solid #e6e9ee
 .blog-article__header
@@ -592,6 +573,7 @@ footer
 .media__container
     display: flex
     float: left
+    margin-bottom: 50px
     p
         font-size: 0.9em
         letter-spacing: 1px
@@ -624,8 +606,6 @@ footer
 //BLOG ARTICLE PAGE / POST SECTION
 .post__section
     padding: 80px 20px 100px 20px
-.post__article
-    min-height: 1440px
 .post__yellow-container
     margin-left: 90px
     border-left: 5px solid #ffaf36
@@ -678,7 +658,6 @@ footer
     background-image: url(../components/Images/FAQ-background.png)
     min-height: 370px
 .FAQ__section
-    min-height: 1040px
     padding: 80px 20px
 .faq__item
     height: 140px
@@ -703,10 +682,9 @@ footer
 //---------------------------------ContactPage----------------------------------//
 //CONTACT PAGE / CONTACT SECTION
 .hero__section--contact
-    background-image: url(../components/Images/contact-background.png)
     min-height: 370px
+    background-image: url(../components/Images/contact-background.png)
 .contact-page__section
-    min-height: 800px
     padding: 80px 20px
 .contact__details
     display: flex
@@ -746,440 +724,8 @@ footer
     font-weight: 800
     letter-spacing: 2px
     color: white
-@media screen and (max-width: 1250px)
-    //--GLOBAL--//
-    .col-4-lg
-        width: 33.33%
-    .col-12-lg
-        width: 100%
-    //--HEADER--//
-    .header
-        padding: 0 20px
-    .header__logo
-        p
-            font-size: 0.85em
-    .header__navigation
-        li
-            padding-right: 25px
-            font-size: 0.80em
-    //--FOOTER--//
-    .footer__navigation
-        li
-            margin: 0 70px 10px 0
-    //--HOMEPAGE--//
-    .news__section--home
-        min-height: 760px
-    .news__article--home
-        width: 100%
-        img
-             max-width: 100%
-    .partners__section--home
-        min-height: 650px
-    .partners__container--home
-        min-height: 650px
-    //--ABOUTPAGE--//
-    .views__section
-        min-height: 650px
-    .views__container
-        min-height: 650px
-        header
-            padding: 0 20px
-    .views__image-container
-        img
-            display: none
-    .views__top-column
-        .col-9
-            margin: 0
-            padding-left: 20px
-    .views__bottom-column
-        .col-9
-            margin: 0
-            padding-right: 20px
-    //--NEWSPAGE--//
-    .article__container
-        img
-            max-width: 100%
-    .news-section__article--two
-        min-height: 300px
-        padding: 50px 0
-    .news-section__article--three
-        min-height: 540px
-    .article__image-container
-        padding: 0 20px
-    .news-section__column-10
-        padding-left: 20px
-    .news-section__container--four
-        min-height: 400px
-    .article__sub-image-container
-        display: none
-    .article__blue-box
-        position: absolute
-        bottom: 20px
-        left: 50%
-        transform: translateX(-50%)
-    //--BLOGPAGE--//
-    .article__post-author
-        .col-10
-            margin-left: 30px
-    //--FAQPAGE--//
-    .faq__header
-        font-size: 0.8em
-    .faq__paragraph
-        font-size: 0.7em
-@media screen and (max-width: 992px)
-    //--GLOBAL--//
-    .col-4-md
-        width: 33.33%
-    .col-6-md
-        width: 50%
-    .col-12-md
-        width: 100%
-    .btn
-        width: 135px
-        height: 45px
-    .article__paragraph
-        font-size: 0.7
-        line-height: 25px
-    //--HEADER--//
-    .header
-        padding: 0 20px
-    .header__logo
-        p
-            font-size: 0.85em
-    .header__navigation
-        display: none
-    .header__navigation--hamburger
-        display: block
-        position: fixed
-    //--FOOTER--//
-    footer
-        min-height: 120px
-        padding: 40px 0
-    .footer__logo
-        display: flex
-        justify-content: space-around
-        align-items: center
-        margin: 0
-    .navigation__column
-        display: none
-    .contact__column
-        display: none
-    .logo__paragraph
-        margin-bottom: 5px
-    //--------------HOMEPAGE---------------//
-    //--HERO-SECTION--//
-    .hero__section--home
-        min-height: 600px
-    .hero__container--home
-        min-height: 600px
-    .hero__content--home
-        span
-            font-size: 0.8em
-            padding-left: 3px
-    .hero__header--home
-        font-size: 2.3em
-    .hero__paragraph--home
-        font-size: 0.75em
-    //--ABOUT-SECTION--//
-    .about__section--home
-        min-height: 320px
-        padding: 50px 20px
-    .about__paragraph--home
-        text-align: justify
-        width: 90%
-    //--SERVICE-SECTION--//
-    .services__column-12--home
-        header
-            text-align: center
-    .section__item--home
-        padding: 0 17%
-    .item__paragraph--home
-        text-align: justify
-    .service__button--home
-        position: relative
-        left: 50%
-        transform: translateX(-50%)
-    //--CLIENT-SECTION--//
-    .client__content--home
-        padding: 45px 15px 0 15px
-    .client__paragrph--home
-        font-size: 0.8em
-    //--NEWS-SECTION--//
-    .news__statistics--home
-        display: none
-    .news__article--home
-        width: 100%
-        padding: 0
-        img
-            max-width: 100%
-    .news__article-header--no-margin
-        margin-top: 0
-    .news__article-paragraph--home
-        text-align: justify
-        width: 100%
-    .news__button--home
-        margin-top: 10px
-    //--PARTNERS-SECTION--//
-    .partners__section--home
-        min-height: 650px
-    .partners__container--home
-        min-height: 650px
-    //--------------ABOUTPAGE---------------//
-    //--ABOUT-SECTION--//
-    .about__section--about
-        min-height: 800px
-    //--VIEWS-SECTION--//
-    .views__container
-        overflow-x: hidden
-        header
-            padding: 0 30px
-    .views__image-container
-        display: none
-    .views__bottom-column
-        .col-12-md
-            margin: 0
-            padding-right: 30px
-    //--------------SERVICESPAGE---------------//
-    //--SECVICES-SECTION--//
-    .services__section--services
-        min-height: 1520px
-    .services-article__header
-        text-align: left
-        padding: 10px 30px
-    .services-article__paragraph
-        padding: 10px 30px
-    .services-article__button
-        margin-left: 30px
-    //--------------NEWSPAGE---------------//
-    //--NEWS-SECTION--//
-    .article__container
-        .col-2
-            display: none
-    .article__image-container
-        img
-            max-width: 100%
-    .article__sub-paragraph
-        margin: 15px 0 0 0
-        font-size: 0.65em
-    .news-section__article--two
-        padding: 40px 0
-        min-height: 280px
-    .news-section__column-10
-        p
-            width: 100%
-    .news-section__article--three
-        min-height: 420px
-    .article__sub-image-container
-        display: none
-    .article__blue-box
-        display: none
-    //--------------BLOGPAGE--------------//
-    //--BLOG-SECTION--//
-    .blog__article
-        .col-1
-            img
-                display: none
-    .post__article
-        min-height: 1240px
-    .article__post-author
-        display: none
-    //--------------FAQPAGE--------------//
-    .FAQ__section
-        min-height: 1200px
-    .faq__item
-        height: 180px
-    .faq__header
-        font-size: 0.75em
-        letter-spacing: 1px
-    .faq__paragraph
-        font-size: 0.7em
-    //--------------CONTACTPAGE--------------//
-    .contact-page__section
-        min-height: 650px
-@media screen and (max-width: 768px)
-    //--GLOBAL--//
-    .col-6-sm
-        width: 50%
-    .col-12-sm
-        width: 100%
-    .btn
-        width: 120px
-        height: 40px
-    .section__header
-        font-size: 1.5em
-    .section__subheading
-        font-size: 0.75em
-    .section__paragraph
-        width: 100%
-        font-size: 0.845em
-        text-align: justify
-        line-height: 23px
-    .navigation__column
-        display: none
-    .contact__column
-        display: none
-    .logo__paragraph
-        font-size: 0.7em
-        margin-bottom: 5px
-    //--footer--//
-    footer
-        p
-            display: none
-    .footer__media
-        margin-top: 10px
-    //--------------HOMEPAGE---------------//
-    //--HERO-SECTION--//
-    .hero__section--home
-        background-position: 75%
-    .hero__section--home
-        min-height: 550px
-    .hero__container--home
-        min-height: 550px
-    .hero__content--home
-        top: 80%
-        span
-            font-size: 0.9em
-    .hero__header--home
-        font-size: 1.8em
-        margin-top: 3px
-    .hero__paragraph--home
-        display: none
-    .hero__button--home
-        display: none
-    //--ABOUT-SECTION--//
-    .about__section--home
-        min-height: 340px
-        padding: 60px 20px 30px 20px
-    //--SERVICES-SECTION--//
-    .section__item--home
-        justify-content: center
-        padding: 0 10%
-    .item__icon--home
-        position: absolute
-        opacity: 0.2
-        img
-            position: absolute
-            width: 70px
-            height: 70px
-    .item__header--home, .item__paragraph--home
-        text-align: center
-    .service__button--home
-        z-index: 5
-    //--CLIENT-SECTION--//
-    .client__column-12--home
-        padding: 0
-        header
-            text-align: center
-    .client__section--home
-        min-height: 1000px
-    .client__paragrph--home
-        text-align: center
-        padding: 0 15% 50px 20%
-        margin: 0
-    .client__data--home
-        justify-content: center
-        padding: 0
-    .quote__img--home
-        top: 20%
-        left: 30%
-    //--NEWS-SECTION--//
-    .news__section--home
-        min-height: 1050px
-    .news__article--home
-        padding: 10px 30px
-        img
-            max-width: 100%
-    .news__container--home
-        .col-1
-            display: none
-    .news__article--right
-        margin: 0
-        padding: 10px 30px
-        border: none
-    .news__button--home
-        margin: 30px 0 0 30px
-    //--PARTNERS-SECTION--//
-    .partners__section--home
-        min-height: 810px
-    .partners__container--home
-        min-height: 810px
-    //--------------ABOUTPAGE---------------//
-    //--ABOUT-SECTION--//
-    .about__section--about
-        min-height: 700px
-    .button__container--about
-        width: 300px
-    //--VIEWS-SECTION--//
-    .views__section
-        min-height: auto
-    .views__container
-        padding: 40px 0 90px 0
-        min-height: auto
-        header
-            padding: 0 30px
-    //--------------SERVICESPAGE---------------//
-    //--SECVICES-SECTION--//
-    .services__section--services
-        min-height: 2800px
-        padding: 50px 0 100px 0
-    //--------------NEWSSPAGE---------------//
-    //--NEWS-SECTION--//
-    .news-section__article--one, .news-section__article--three
-        min-height: 630px
-    .article__image-container
-        text-align: center
-        padding: 0
-    .article__text-container
-        text-align: center
-        .article__paragraph
-            width: 100%
-            padding: 20px 50px
-        .article__sub-paragraph
-            font-size: 0.8em
-    .news-section__article--two
-        padding: 10px 0
-        min-height: 310px
-    .news-section__container--four
-        min-height: 680px
-    //--------------BLOGPAGE--------------//
-    //--BLOG-SECTION--//
-    .hero__section--blog
-        background-position: 70%
-    .blog-article__paragraph
-        font-size: 0.8em
-    .blog-media__item
-        width: 35px
-        height: 35px
-        font-size: 0.75em
-    .blog__article
-        min-height: 520px
-    .post__article
-        min-height: 1350px
-    .post__yellow-container
-        margin-left: 0
-    //--------------BLOGPAGE--------------//
-    //--FAQ-SECTION--//
-    .FAQ__section
-        min-height: 1600px
-    .faq__item
-        margin-top: 20px
-        height: 150px
-        padding-bottom: 0
-    //--------------CONTACTPAGE--------------//
-    //--CONTACT-SECTION--//
-    .hero__section--contact
-        background-position: 70%
-    .contact-page__section
-        min-height: 400px
-    .detail__email-box
-        p
-            font-size: 0.7em
-    .contact-content__header
-        font-size: 1em
-    .contact-content__paragraph
-        font-size: 0.7em
-        letter-spacing: 0.75px
-    
-@media screen and (max-width: 479px)
-    body
-        display: none
+//------------------------MEDIA-QUERIES-----------------------//
+@import './media_queries/desctop_devices.sass'
+@import './media_queries/tablets_devices.sass'
+@import './media_queries/small_devices.sass'
+@import './media_queries/small_phones.sass'
