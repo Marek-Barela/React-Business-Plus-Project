@@ -1,9 +1,8 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
 import { Link } from "react-router-dom";
-import logo from "./../Images/Business-Plus.png"
-import phone from "./../Images/phone-icon.png"
-
+import logo from "./../Images/Business-Plus.png";
+import phone from "./../Images/phone-icon.png";
 const Header = (props) => {
     return(
       <header className="header">

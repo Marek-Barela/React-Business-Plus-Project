@@ -13,8 +13,10 @@ const PartnersSection = (props) => {
         <div className="partners__container--home container">
             <div className="row">
                 <div className="col-12">
-                    <h5 className="section__header">Partners</h5>
-                    <span className="section__subheading">Our Great Partners</span>
+                    <header>
+                        <h5 className="section__header">Partners</h5>
+                        <span className="section__subheading">Our Great Partners</span>
+                    </header>
                 </div>
                 <div className="col-12">
                     <div className="col-2 col-4-lg col-4-md col-6-sm logo__container">

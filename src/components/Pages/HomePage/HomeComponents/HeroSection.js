@@ -7,9 +7,11 @@ const HeroSection = (props) => {
         <div className="hero__container--home container">
           <div className="hero__content--home">
             <span>Welcome to</span>
-              <h1 className="hero__header--home">Business plus</h1>
-              <p className="hero__paragraph--home">Lorem Ipsum is simply dummy text of the printing and typesetting industry
-              Lorem Ipsum has been the industry"s standard dummy text ever.</p>
+              <header>
+                <h1 className="hero__header--home">Business plus</h1>
+                <p className="hero__paragraph--home">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                Lorem Ipsum has been the industry"s standard dummy text ever.</p>
+              </header>
               <Link to="/Services"><button className="btn hero__button--home">Read More</button></Link>
           </div>
         </div>

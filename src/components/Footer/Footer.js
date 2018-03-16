@@ -33,7 +33,7 @@ const Footer = (props) => {
                         </div>
                     </div>
                     <div className="col-6 contact__column">
-                        <h3 className="footer__header">Quick contact us</h3>
+                            <h3 className="footer__header">Quick contact us</h3>
                         <form className="footer__form" action="#">
                             <input type="text" autoComplete="text" placeholder="Name *" />
                             <input type="email" autoComplete="email" placeholder="Email *" />

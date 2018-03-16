@@ -10,8 +10,10 @@ const NewsSection = (props) => {
             <div className="news__container--home container">
                 <div className="row">
                     <div className="col-12 news__column-12--home">
-                        <h5 className="section__header">News</h5>
-                        <span className="section__subheading">From Our Blog</span>
+                        <header>
+                            <h5 className="section__header">News</h5>
+                            <span className="section__subheading">From Our Blog</span>
+                        </header>
                     </div>
                     <div className="col-1">
                         <div className="news__statistics--home">

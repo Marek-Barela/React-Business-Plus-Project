@@ -10,8 +10,10 @@ const HeroSection = (props) => {
         <section className="services__section--services">
             <div className="services__container--services container">
                 <div className="row">
-                    <h3 className="section__header">Service</h3>
-                    <p className="section__subheading">Our Products</p>
+                    <header>
+                        <h3 className="section__header">Service</h3>
+                        <p className="section__subheading">Our Products</p>
+                    </header>
                     <div className="col-6 col-12-sm">
                         <article className="services__article">
                             <img src={servicesOne} alt="aricle"/>

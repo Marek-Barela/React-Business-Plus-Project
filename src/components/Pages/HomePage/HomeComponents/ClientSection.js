@@ -5,7 +5,6 @@ import client3 from "../../../Images/client-three.png";
 import icon1 from "../../../Images/quote-icon-one.png";
 import icon2 from "../../../Images/quote-icon-two.png";
 import icon3 from "../../../Images/quote-icon-three.png";
-//import { Link } from "react-router-dom";
 
 const ClientSection = (props) => {
     return (

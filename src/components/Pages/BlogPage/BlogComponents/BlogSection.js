@@ -10,8 +10,10 @@ const BlogSection = (props) => {
     return (
         <section className="blog__section--blog">
             <div className="blog__container--blog container">
-                <h3 className="section__header">Blog Page</h3>
-                <p className="section__subheading">Our featured Post</p>
+                <header>
+                    <h3 className="section__header">Blog Page</h3>
+                    <p className="section__subheading">Our featured Post</p>
+                </header>
                 <img className="blog__pyramids" src={pyramids} alt="pyramids"/>
                 <article className="blog__article">
                     <div className="col-1">
