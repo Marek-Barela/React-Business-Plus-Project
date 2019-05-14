@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import NewsSection from "./NewsComponents/NewsSection";
 
 class NewsPage extends Component {
-    componentDidMount () {
-      window.scrollTo(0, 0)
-    }
-    render() {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  render() {
     return (
-    <main>
+      <main>
         <section className="hero__section--news"></section>
         <NewsSection />
-    </main>
+      </main>
     );
   }
 }

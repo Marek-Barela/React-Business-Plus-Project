@@ -4,18 +4,18 @@ import ServicesSection from "./ServicesComponents/ServicesSection";
 import ClientSection from "../HomePage/HomeComponents/ClientSection";
 
 class ServicesPage extends Component {
-  componentDidMount () {
+  componentDidMount() {
     window.scrollTo(0, 0)
   }
   render() {
     return (
-        <main>
-          <HeroSection />
-          <ServicesSection />
-          <div className="client-component-Background">
-            <ClientSection />
-          </div>
-        </main>
+      <main>
+        <HeroSection />
+        <ServicesSection />
+        <div className="client-component-Background">
+          <ClientSection />
+        </div>
+      </main>
     );
   }
 }

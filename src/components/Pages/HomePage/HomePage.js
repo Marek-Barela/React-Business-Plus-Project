@@ -7,19 +7,19 @@ import NewsSection from "./HomeComponents/NewsSection";
 import PartnersSection from "./HomeComponents/PartnersSection";
 
 class HomePage extends Component {
-  componentDidMount () {
+  componentDidMount() {
     window.scrollTo(0, 0)
   }
-  render(){
+  render() {
     return (
-        <main>
-            <HeroSection />
-            <AboutSection />
-            <ServicesSection />
-            <ClientSection />
-            <NewsSection />
-            <PartnersSection />
-        </main>
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <ServicesSection />
+        <ClientSection />
+        <NewsSection />
+        <PartnersSection />
+      </main>
     );
   }
 }
