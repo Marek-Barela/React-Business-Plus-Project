@@ -5,12 +5,8 @@ You can see full project [here](https://elated-neumann-5f3107.netlify.com)
 
 Used technology:
 
--HTML
-
--CSS
-
--SASS
-
--RWD
-
--React
+- HTML
+- CSS
+- SASS
+- RWD
+- React
